@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  5 AUG 2024 17:03
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  5 AUG 2024 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1725,7 +1725,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 66C7B068256C60A193CF16E6ED8A82CE;3846.
+(rerunfilecheck)             Checksum: 973436CBF746377AFABAAC5E351A33A4;4452.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
 (rerunfilecheck)             Checksum: A1E5F066EB4DB85977C57D93122EEF4C;2477.
  ) 
