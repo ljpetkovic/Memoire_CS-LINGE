@@ -34,6 +34,7 @@
 %\usepackage{floatrow}
 %espacement entre les lignes
 \usepackage{setspace}
+\onehalfspacing
 %modifier la mise en page de l'abstract
 \usepackage{abstract}
 %police et mise en page (marges) du document
@@ -271,19 +272,30 @@ pdfstartview={FitH},
 \input{1_intro}
 
 \chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
+\label{1_rupture}
 \input{2_rupture}
 
 \chapter{Pister la circulation du discours médical au prisme du numérique}
+\label{2_sota}
 \input{2_SotA}
 
 \chapter{Valorisation du fonds Charcot}
+\label{3_corpus}
 \input{3_corpus}
 %
-\chapter{Méthodologie}
+\chapter{Résultats}
+\label{4_methodo}
 \input{4_methodo}
 %
-\chapter{Conclusion}
+
+% Ensure correct numbering for conclusion
+\clearpage
+\phantomsection
+\refstepcounter{chapter} % Manually increment to Chapter 5
+\addcontentsline{toc}{chapter}{Conclusion}
+\chapter*{Conclusion}
 \input{5_conclusion}
+\label{5_conclusion}
 %
 %\input{6_annexe}
 

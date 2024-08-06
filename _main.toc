@@ -7,12 +7,13 @@
 \contentsline {section}{\numberline {2.1}Modalités des circulations des savoirs}{6}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Constitution d'un concept historique}{7}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Études numériques des circulations culturelles}{8}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Valorisation du fonds Charcot}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Description du fonds Charcot}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Constitution du fonds Charcot}{10}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Méthodologie}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Premières tentatives}{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Extraction des phrases-clés : méthode statistique}{11}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{11}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Conclusion}{12}{chapter.5}%
-\contentsline {chapter}{References}{13}{chapter.5}%
+\contentsline {chapter}{\numberline {3}Valorisation du fonds Charcot}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Description du fonds Charcot}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Constitution du fonds Charcot}{12}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Résultats}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Exploration du corpus Charcot}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Extraction des phrases-clés : méthode statistique}{13}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{13}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Discussion}{13}{section.4.4}%
+\contentsline {chapter}{Conclusion}{14}{chapter.5}%
+\contentsline {chapter}{References}{15}{chapter*.27}%
