@@ -54,9 +54,12 @@
 \fancyhead[R]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}% Default \headrulewidth is 0.4pt
 \renewcommand{\footrulewidth}{0.4pt}% Default \footrulewidth is 0pt
-
+\usepackage{caption}
+\captionsetup{justification=centering}
 % renommer « Fig. » en « Figure »
 \addto\captionsfrench{\renewcommand{\figurename}{\textsc{Figure}}}
+
+\addto\captionsfrench{\def\tablename{Tableau}}
 
 \usepackage{lipsum} 
 \usepackage{blindtext, color}
@@ -67,7 +70,8 @@
 
 % How can I have a vertical bar in chapter title which scales with the broken title?
 \newcommand{\hsp}{\hspace{16pt}}
-\titleformat{\chapter}[hang]{\LARGE}{\color{gray75}\textsc{Chapitre} \thechapter}{14pt}{\begin{tabular}[t]{@{\color{gray75}\hsp}p{0.75\textwidth}}\raggedright\textsc{#1}\end{tabular}}
+\titleformat{\chapter}[hang]{\LARGE}{\color{gray75}\textsc{Chapitre} \thechapter}{14pt}{\begin{tabular}[t]{@{\color{gray75}\hsp}p{0.75\textwidth}}\raggedright\textsc{#1}\end{tabular}\\\hrule}
+
 
 \usepackage{gensymb} % pour le symbole du degré (\degree)
 
@@ -190,7 +194,7 @@ pdfstartview={FitH},
 % \fancyhead[C]{}
 % \fancyfoot[C]{}% \fancyfoot[R]{\thepage}
 
-
+\usepackage{colortbl}
 
 \newenvironment{myepigraph}
   {\par\hfill\itshape
