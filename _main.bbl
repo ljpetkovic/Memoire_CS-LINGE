@@ -96,6 +96,11 @@ Christin, O. (2011).
 \newblock
   \url{https://www.academia.edu/31022748/Dictionnaire_des_concepts_nomades_en_sciences_humaines_vol_1}.
 
+\bibitem[Devlin \textit{et~al.}, 2019]{devlin2019}
+Devlin, J., Chang, M.-W., Lee, K., \& Toutanova, K. (2019).
+\newblock Bert: Pre-training of {D}eep {B}idirectional {T}ransformers for
+  {L}anguage {U}nderstanding.
+
 \bibitem[\foreignlanguage{russian}{Лихачёв, Д. C.}, 1997]{lihachev1997}
 \foreignlanguage{russian}{Лихачёв, Д. C.} (1997).
 \newblock \foreignlanguage{russian}{Концептосфера русского
@@ -276,6 +281,14 @@ Rey, A. (2011).
 \newblock Le {R}obert.
 \newblock
   \url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain\%20Rey\%20et\%20al.\%20-\%20Dictionnaire\%20historique\%20de\%20la\%20langue\%20francaise\%204e\%20\%C3\%A9d.\%20-\%20Le\%20Robert\%20\%282010\%29.pdf}.
+
+\bibitem[Robertson \& Jones, 1976]{robertson1976relevance}
+Robertson, S.~E. \& Jones, K.~S. (1976).
+\newblock Relevance {W}eighting of {S}earch {T}erms.
+\newblock {\em Journal of the American Society for Information science}, 27(3),
+  129--146.
+\newblock
+  \url{https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.4630270302?casa_token=TfyVkMGkDQsAAAAA:TCuXWzGHjo31RdxGR9jECRG2rZzqv0K3GOzHF7yAa2NfxtDFqxe-MmSHMC6e8OFiFxI4sLj2aW6OyDk}.
 
 \bibitem[Roudinesco \& Plon, 2023]{roudinesco}
 Roudinesco, {\'E}. \& Plon, M. (2023).
