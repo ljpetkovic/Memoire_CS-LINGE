@@ -27,5 +27,16 @@ Afin de surmonter les limites rencontrées avec ces deux outils, nous avons prop
 \item \textsc{BM25} est une fonction de classement qui classe un ensemble de documents en fonction des termes de requête apparaissant dans chaque document, quelle que soit l'interrelation entre les termes de requête au sein d'un document (par exemple, leur proximité relative). Il s'agit d'une tentative d'amélioration de \textsc{TF-IDF}, notamment pour prendre en compte divers facteurs tels que la longueur du document et les problèmes engendrés par la possible saturation des termes \citep{robertson1976relevance} ;
 \item \textsc{BERT} \citep{devlin2019} est un modèle pré-entraîné qui utilise l'apprentissage non-supervisé sur de grandes quantités de données textuelles pour apprendre des représentations de mots et de phrases, et comprendre le contexte et la sémantique. Il est basé sur l'architecture des \textit{transformeurs}, qui est un type de réseau de neurones utilisé pour le traitement du langage naturel.
 \end{itemize}
+
+La liste des concepts retenus pour l'étude est composée de termes ou expressions popularisés par Charcot \citep{camargo2024}, comme \textit{hystérie}, \textit{sclérose latérale} etc. Pour chaque entrée, nous avons pris en compte les formes du singulier et du pluriel obtenues grâce à des expressions régulières. La liste provient du croisement entre la liste des termes obtenus avec OBVIE et l'index d'une édition des \oe{}uvres complètes de \citet{charcot1892oeuvres}, dont nous avons retiré les termes génériques (\textit{os}, \textit{cerveau}, etc.).
+
+Comme nous pouvons l'observer sur la figure \ref{fig:bm25}, la mesure \textsc{BM25} révèle une intensification du lexique de Charcot dans le corpus \og{}Autres\fg{}. Autrement dit, tous les termes évalués sont identifiés comme plus signifiants dans le discours des \og{}Autres\fg{} que dans celui de Charcot, les scores étant plus élevés pour 14 termes (sur 14 évalués) utilisés par le réseau de Charcot. D'ailleurs, d'après le tableau \ref{table:concepts}, c'est la seule mesure dont les valeurs témoignent clairement d'un lexique partagé entre Charcot et ses successeurs et collaborateurs, \textit{a contrario} des deux autres mesures, où le rapport en question est inversé (la grande majorité des termes étant plus pertinente dans le discours de Charcot, et son impact étant donc moins accentué). Concrètement, les termes les plus pertinents semblent être \textit{sclérose en plaque disséminées} (score 0,83), \textit{paralysie rhumatismale} (0,68), \textit{atrophie progressive} (0,53) et \textit{arthrite déformante} (0,50).
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{img/Charcot_Autres_250523.png}
+    \caption{Visualisation de pertinence des concepts dans les deux corpus suivant la métrique BERTScore. Les valeurs des concepts associées au corpus \og{}Charcot\fg{} sont représentées en bleu, alors que celles du corpus \og{}Autres\fg{} en jaune.}
+    \label{fig:bm25}
+\end{figure}
 \section{Extraction des phrases-clés : méthode à base d'apprentissage profond}
 \section{Discussion}

@@ -13,9 +13,9 @@
 \contentsline {chapter}{\numberline {4}Résultats}{14}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{14}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Extraction des phrases-clés : méthodes statistiques}{14}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{16}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Discussion}{16}{section.4.4}%
-\contentsline {chapter}{Conclusion}{17}{chapter.5}%
-\contentsline {chapter}{Annexe}{18}{chapter*.35}%
-\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{20}{chapter*.37}%
-\contentsline {chapter}{References}{21}{chapter*.37}%
+\contentsline {section}{\numberline {4.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{17}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Discussion}{17}{section.4.4}%
+\contentsline {chapter}{Conclusion}{18}{chapter.5}%
+\contentsline {chapter}{Annexe}{19}{chapter*.36}%
+\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{21}{chapter*.38}%
+\contentsline {chapter}{References}{23}{table.caption.39}%

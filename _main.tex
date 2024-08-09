@@ -21,6 +21,7 @@
 \usepackage[colorinlistoftodos]{todonotes}
 \setlength{\marginparwidth}{2cm} % Adjust marginpar width if needed
 
+
 \newcommand{\smalltodo}[2][]{\todo[size=\scriptsize, color=white, linecolor=blue, textcolor=black #1]{#2}}
 
 \usepackage{url}
@@ -48,13 +49,24 @@
 %Pour les galerie d'images
 \usepackage{subfig}
 \usepackage{fancyhdr}
+\usepackage{pdflscape}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\rightmark}
 \fancyhead[R]{\thepage}
+
 \renewcommand{\headrulewidth}{0.4pt}% Default \headrulewidth is 0.4pt
 \renewcommand{\footrulewidth}{0.4pt}% Default \footrulewidth is 0pt
 \usepackage{caption}
+
+% Define the custom page style
+\fancypagestyle{mylandscape}{
+    \fancyhf{} % Clear all header and footer fields
+    \fancyfoot[C]{\rotatebox{90}{\thepage}} % Rotate the page number 90 degrees
+    \renewcommand{\headrulewidth}{0pt} % No header line
+    \renewcommand{\footrulewidth}{0pt} % No footer line
+}
+
 \captionsetup{justification=centering}
 % renommer « Fig. » en « Figure »
 \addto\captionsfrench{\renewcommand{\figurename}{\textsc{Figure}}}
@@ -94,6 +106,7 @@
 %\usepackage[linkbordercolor={0 0 1}]{hyperref}
 % pour les références croisées (page X pour une référence dans la bibliographie)
 \usepackage[backref=page]{hyperref} 
+
 \renewcommand\backreftwosep{, }
  \renewcommand\backrefsep{, }
  \renewcommand*{\backrefalt}[4]{%
