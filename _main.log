@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  9 AUG 2024 17:41
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  10 AUG 2024 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -685,28 +685,35 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count327
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count328
+\multirow@dima=\skip60
+\bigstrutjot=\dimen282
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen282
+\col@sep=\dimen283
 \ar@mcellbox=\box67
-\extrarowheight=\dimen283
+\extrarowheight=\dimen284
 \NC@list=\toks47
-\extratabsurround=\skip59
-\backup@length=\skip60
+\extratabsurround=\skip61
+\backup@length=\skip62
 \ar@cellbox=\box68
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen284
-\TX@old@table=\dimen285
-\TX@old@col=\dimen286
-\TX@target=\dimen287
-\TX@delta=\dimen288
-\TX@cols=\count328
+\TX@col@width=\dimen285
+\TX@old@table=\dimen286
+\TX@old@col=\dimen287
+\TX@target=\dimen288
+\TX@delta=\dimen289
+\TX@cols=\count329
 \TX@ftn=\toks48
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
@@ -714,11 +721,11 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/abstract/abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
-\abstitleskip=\skip61
-\absleftindent=\skip62
-\absrightindent=\skip63
-\absparindent=\skip64
-\absparsep=\skip65
+\abstitleskip=\skip63
+\absleftindent=\skip64
+\absrightindent=\skip65
+\absparindent=\skip66
+\absparsep=\skip67
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -726,17 +733,17 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count329
-\Gm@cntv=\count330
-\c@Gm@tempcnt=\count331
-\Gm@bindingoffset=\dimen289
-\Gm@wd@mp=\dimen290
-\Gm@odd@mp=\dimen291
-\Gm@even@mp=\dimen292
-\Gm@layoutwidth=\dimen293
-\Gm@layoutheight=\dimen294
-\Gm@layouthoffset=\dimen295
-\Gm@layoutvoffset=\dimen296
+\Gm@cnth=\count330
+\Gm@cntv=\count331
+\c@Gm@tempcnt=\count332
+\Gm@bindingoffset=\dimen290
+\Gm@wd@mp=\dimen291
+\Gm@odd@mp=\dimen292
+\Gm@even@mp=\dimen293
+\Gm@layoutwidth=\dimen294
+\Gm@layoutheight=\dimen295
+\Gm@layouthoffset=\dimen296
+\Gm@layoutvoffset=\dimen297
 \Gm@dimlist=\toks49
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/subfig/subfig.sty
@@ -747,47 +754,47 @@ Package: caption 2023/03/12 v3.6j Customizing captions (AR)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
-\caption@tempdima=\dimen297
-\captionmargin=\dimen298
-\caption@leftmargin=\dimen299
-\caption@rightmargin=\dimen300
-\caption@width=\dimen301
-\caption@indent=\dimen302
-\caption@parindent=\dimen303
-\caption@hangindent=\dimen304
+\caption@tempdima=\dimen298
+\captionmargin=\dimen299
+\caption@leftmargin=\dimen300
+\caption@rightmargin=\dimen301
+\caption@width=\dimen302
+\caption@indent=\dimen303
+\caption@parindent=\dimen304
+\caption@hangindent=\dimen305
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count332
-\c@continuedfloat=\count333
+\c@caption@flags=\count333
+\c@continuedfloat=\count334
 Package caption Info: float package is loaded.
 )
-\c@KVtest=\count334
-\sf@farskip=\skip66
-\sf@captopadj=\dimen305
-\sf@capskip=\skip67
-\sf@nearskip=\skip68
-\c@subfigure=\count335
-\c@subfigure@save=\count336
-\c@lofdepth=\count337
-\c@subtable=\count338
-\c@subtable@save=\count339
-\c@lotdepth=\count340
-\sf@top=\skip69
-\sf@bottom=\skip70
+\c@KVtest=\count335
+\sf@farskip=\skip68
+\sf@captopadj=\dimen306
+\sf@capskip=\skip69
+\sf@nearskip=\skip70
+\c@subfigure=\count336
+\c@subfigure@save=\count337
+\c@lofdepth=\count338
+\c@subtable=\count339
+\c@subtable@save=\count340
+\c@lotdepth=\count341
+\sf@top=\skip71
+\sf@bottom=\skip72
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip71
-\f@nch@O@elh=\skip72
-\f@nch@O@erh=\skip73
-\f@nch@O@olh=\skip74
-\f@nch@O@orh=\skip75
-\f@nch@O@elf=\skip76
-\f@nch@O@erf=\skip77
-\f@nch@O@olf=\skip78
-\f@nch@O@orf=\skip79
+\f@nch@headwidth=\skip73
+\f@nch@O@elh=\skip74
+\f@nch@O@erh=\skip75
+\f@nch@O@olh=\skip76
+\f@nch@O@orh=\skip77
+\f@nch@O@elf=\skip78
+\f@nch@O@erf=\skip79
+\f@nch@O@olf=\skip80
+\f@nch@O@orf=\skip81
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -807,9 +814,9 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count341
-\l__lipsum_a_int=\count342
-\l__lipsum_b_int=\count343
+\g__lipsum_par_int=\count342
+\l__lipsum_a_int=\count343
+\l__lipsum_b_int=\count344
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -817,36 +824,36 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count344
-\c@Blindtext=\count345
-\c@blind@countparstart=\count346
-\blind@countxx=\count347
-\blindtext@numBlindtext=\count348
-\blind@countyy=\count349
-\c@blindlist=\count350
-\c@blindlistlevel=\count351
-\c@blindlist@level=\count352
-\blind@listitem=\count353
-\c@blind@listcount=\count354
-\c@blind@levelcount=\count355
-\blind@mathformula=\count356
-\blind@Mathformula=\count357
-\c@blind@randomcount=\count358
-\c@blind@randommax=\count359
-\c@blind@pangramcount=\count360
-\c@blind@pangrammax=\count361
+\c@blindtext=\count345
+\c@Blindtext=\count346
+\c@blind@countparstart=\count347
+\blind@countxx=\count348
+\blindtext@numBlindtext=\count349
+\blind@countyy=\count350
+\c@blindlist=\count351
+\c@blindlistlevel=\count352
+\c@blindlist@level=\count353
+\blind@listitem=\count354
+\c@blind@listcount=\count355
+\c@blind@levelcount=\count356
+\blind@mathformula=\count357
+\blind@Mathformula=\count358
+\c@blind@randomcount=\count359
+\c@blind@randommax=\count360
+\c@blind@pangramcount=\count361
+\c@blind@pangrammax=\count362
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box69
-\beforetitleunit=\skip80
-\aftertitleunit=\skip81
-\ttl@plus=\dimen306
-\ttl@minus=\dimen307
+\beforetitleunit=\skip82
+\aftertitleunit=\skip83
+\ttl@plus=\dimen307
+\ttl@minus=\dimen308
 \ttl@toksa=\toks50
-\titlewidth=\dimen308
-\titlewidthlast=\dimen309
-\titlewidthfirst=\dimen310
+\titlewidth=\dimen309
+\titlewidthlast=\dimen310
+\titlewidthfirst=\dimen311
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/gensymb/gensymb.sty
 Package: gensymb 2022/10/17 v1.0.2 (KJH)
@@ -863,13 +870,13 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-\c@dirtytalk@qdepth=\count362
+\c@dirtytalk@qdepth=\count363
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
 \FN@temptoken=\toks51
-\footnotemargin=\dimen311
-\@outputbox@depth=\dimen312
+\footnotemargin=\dimen312
+\@outputbox@depth=\dimen313
 Package footmisc Info: Declaring symbol style bringhurst on input line 695.
 Package footmisc Info: Declaring symbol style chicago on input line 703.
 Package footmisc Info: Declaring symbol style wiley on input line 712.
@@ -914,18 +921,18 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count363
+\c@section@level=\count364
 )
-\@linkdim=\dimen313
-\Hy@linkcounter=\count364
-\Hy@pagecounter=\count365
+\@linkdim=\dimen314
+\Hy@linkcounter=\count365
+\Hy@pagecounter=\count366
  (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count366
+\Hy@SavedSpaceFactor=\count367
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
@@ -962,16 +969,16 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 ))
-\c@Hy@tempcnt=\count367
+\c@Hy@tempcnt=\count368
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen314
+\XeTeXLinkMargin=\dimen315
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
-\Fld@menulength=\count368
-\Field@Width=\dimen315
-\Fld@charsize=\dimen316
+\Fld@menulength=\count369
+\Field@Width=\dimen316
+\Fld@charsize=\dimen317
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -984,9 +991,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count369
-\c@Item=\count370
-\c@Hfootnote=\count371
+\Hy@abspage=\count370
+\c@Item=\count371
+\c@Hfootnote=\count372
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -998,34 +1005,103 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box70
-\c@Hy@AnnotLevel=\count372
-\HyField@AnnotCount=\count373
-\Fld@listcount=\count374
-\c@bookmark@seq@number=\count375
-\Hy@SectionHShift=\skip82
+\c@Hy@AnnotLevel=\count373
+\HyField@AnnotCount=\count374
+\Fld@listcount=\count375
+\c@bookmark@seq@number=\count376
+\Hy@SectionHShift=\skip84
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count376
+\etb@tempcnta=\count377
 )
-\c@NAT@total@cites=\count377
-\c@NAT@count@cites=\count378
+\c@NAT@total@cites=\count378
+\c@NAT@count@cites=\count379
 Package hyperref Info: Option `colorlinks' set `true' on input line 198.
 
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count380
+\mult@box=\box71
+\multicol@leftmargin=\dimen318
+\c@unbalance=\count381
+\c@collectmore=\count382
+\doublecol@number=\count383
+\multicoltolerance=\count384
+\multicolpretolerance=\count385
+\full@width=\dimen319
+\page@free=\dimen320
+\premulticols=\dimen321
+\postmulticols=\dimen322
+\multicolsep=\skip85
+\multicolbaselineskip=\skip86
+\partial@page=\box72
+\last@line=\box73
+\maxbalancingoverflow=\dimen323
+\mult@rightbox=\box74
+\mult@grightbox=\box75
+\mult@firstbox=\box76
+\mult@gfirstbox=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\c@minrows=\count386
+\c@columnbadness=\count387
+\c@finalcolumnbadness=\count388
+\last@try=\dimen324
+\multicolovershoot=\dimen325
+\multicolundershoot=\dimen326
+\mult@nat@firstbox=\box114
+\colbreak@box=\box115
+\mc@col@check@num=\count389
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 \everycr=\toks52
-\minrowclearance=\skip83
-\rownum=\count379
+\minrowclearance=\skip87
+\rownum=\count390
 )
 LaTeX Font Info:    Trying to load font information for T1+gentium on input lin
-e 222.
+e 224.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/gentium-tug/t1gentium.fd
 File: t1gentium.fd 2022/05/30 Font definitions for gentium.
 )
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 12.0pt on input line 222.
+(Font)              scaled to size 12.0pt on input line 224.
 
 (./_main.aux
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 3
@@ -1057,47 +1133,47 @@ Package babel Info: The following font families will use the default
 )
 \openout1 = `_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 222.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 224.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-22.
+24.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 222.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 224.
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
-22.
+24.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 222.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 224.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
-22.
+24.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/greek-fontenc/puenc-greek.def
 File: puenc-greek.def 2023/03/08 2.2.1 Greek LICRs for PDF strings
@@ -1106,8 +1182,8 @@ File: puenc-greek.def 2023/03/08 2.2.1 Greek LICRs for PDF strings
 File: greek-fontenc.def 2023/03/08 2.2.1 Common Greek font encoding definitions
 
 ))
-LaTeX Info: Redefining \th on input line 222.
-LaTeX Info: Redefining \up on input line 222.
+LaTeX Info: Redefining \th on input line 224.
+LaTeX Info: Redefining \up on input line 224.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1146,19 +1222,19 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 222.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 222
+LaTeX Info: Redefining \celsius on input line 224.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 224
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 222.
-Package gensymb Info: Using \Omega for \ohm on input line 222.
+LaTeX Info: Redefining \ohm on input line 224.
+Package gensymb Info: Using \Omega for \ohm on input line 224.
 
 Package gensymb Warning: Not defining \micro.
 
-Package backref Info: ** backref set up for natbib ** on input line 222.
-Package hyperref Info: Link coloring ON on input line 222.
+Package backref Info: ** backref set up for natbib ** on input line 224.
+Package hyperref Info: Link coloring ON on input line 224.
 (./_main.out) (./_main.out)
 \@outlinefile=\write4
 \openout4 = `_main.out'.
@@ -1232,11 +1308,11 @@ LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 
 ])
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 267.
+(Font)              <20.74> on input line 269.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 267.
+(Font)              <14.4> on input line 269.
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
 
  []
 
@@ -1251,7 +1327,7 @@ LaTeX Font Info:    Font shape `T1/gentium/b/it' will be
 
 
 ] [0]
-Underfull \hbox (badness 10000) in paragraph at lines 287--287
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
 
  []
 
@@ -1277,14 +1353,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]
 Chapitre 1.
 LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
-(Font)              scaled to size 20.74pt on input line 291.
+(Font)              scaled to size 20.74pt on input line 293.
 
-Overfull \hbox (26.32384pt too wide) in paragraph at lines 291--291
+Overfull \hbox (26.32384pt too wide) in paragraph at lines 293--293
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 
  []
 
@@ -1293,18 +1369,25 @@ LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
+File: img/changement_paradigme.png Graphic file (type bmp)
+<img/changement_paradigme.png>
  [2
 
 ]
-File: img/changement_paradigme.png Graphic file (type bmp)
-<img/changement_paradigme.png>
-LaTeX Font Info:    Trying to load font information for TU+gentium on input lin
-e 39.
-LaTeX Font Info:    No file TUgentium.fd. on input line 39.
 
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
+
+
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
+
+LaTeX Font Info:    Trying to load font information for TU+gentium on input lin
+e 45.
+LaTeX Font Info:    No file TUgentium.fd. on input line 45.
 
 LaTeX Font Warning: Font shape `TU/gentium/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 39.
+(Font)              using `TU/lmr/m/n' instead on input line 45.
 
 
 Package fontspec Info: Times New Roman scale = 0.963629354430423.
@@ -1349,9 +1432,9 @@ wercase,Script=Cyrillic].
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 9.63623pt on input line 39.
+(Font)              scaled to size 9.63623pt on input line 45.
 
-Overfull \hbox (3.7334pt too wide) in paragraph at lines 41--43
+Overfull \hbox (3.7334pt too wide) in paragraph at lines 47--49
 []\T1/gentium/m/n/12 Pour mieux com-prendre l'im-por-tance de ce chan-ge-ment d
 e pen-sée ra-di-cal, il convient
  []
@@ -1365,7 +1448,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-Overfull \hbox (4.28262pt too wide) in paragraph at lines 44--44
+Overfull \hbox (4.28262pt too wide) in paragraph at lines 50--50
 |[]\T1/gentium/b/n/17.28 Jean-Martin Char-cot : un mé-de-cin po-ly-mathe à l'au
 be
  []
@@ -1380,9 +1463,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]
 LaTeX Font Info:    Font shape `TS1/gentium/m/n' will be
-(Font)              scaled to size 12.0pt on input line 57.
+(Font)              scaled to size 12.0pt on input line 63.
 
-Overfull \hbox (10.48698pt too wide) in paragraph at lines 60--61
+Overfull \hbox (10.48698pt too wide) in paragraph at lines 66--67
 []\T1/gentium/m/n/12 Pierre Ja-net (1839-1916), phi-lo-sophe, neu-ro-logue et p
 sy-chiatre, concep-teur des termes
  []
@@ -1397,27 +1480,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.05003pt}.
 
 [5]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 29.05003pt, for example:
-(fancyhdr)                \setlength{\headheight}{29.05003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-17.05003pt}.
-
-[6]
 Chapitre 2.
 
-Overfull \hbox (26.32384pt too wide) in paragraph at lines 295--295
+Overfull \hbox (26.32384pt too wide) in paragraph at lines 297--297
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 
  []
 
-(./2_SotA.tex [7
+(./2_SotA.tex [6
 
 ]
 Overfull \hbox (3.21371pt too wide) in paragraph at lines 27--28
@@ -1487,7 +1561,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]
+[7]
 Overfull \hbox (4.47742pt too wide) in paragraph at lines 53--54
 \T1/gentium/m/n/12 trice à l'égard de leur émer-gence, no-tam-ment pour dé-ter-
 mi-ner à quel mo-ment un concept
@@ -1507,7 +1581,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[9])
+[8])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1516,15 +1590,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[10]
+[9]
 Chapitre 3.
 
-Overfull \hbox (26.32384pt too wide) in paragraph at lines 299--299
+Overfull \hbox (26.32384pt too wide) in paragraph at lines 301--301
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
 
  []
 
@@ -1558,7 +1632,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
  2C % 20Jean -[] Martin % 22 % 29 & lang = fr &
  []
 
-[11
+[10
 
 ]
 
@@ -1569,7 +1643,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12])
+[11])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1578,15 +1652,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[12]
 Chapitre 4.
 
-Overfull \hbox (26.32384pt too wide) in paragraph at lines 303--303
+Overfull \hbox (26.32384pt too wide) in paragraph at lines 305--305
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 
  []
 
@@ -1606,7 +1680,7 @@ File: img/textpair.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14
+[13
 
 ]
 
@@ -1617,10 +1691,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[15]
+[14]
 File: img/Charcot_Autres_250523.png Graphic file (type bmp)
 <img/Charcot_Autres_250523.png>
-)
+
+Overfull \hbox (1.4575pt too wide) in paragraph at lines 42--44
+\T1/gentium/m/n/12 Pour ce tra-vail en cours, nous avons uti-lisé le mo-dèle \T
+1/lmtt/m/n/12 bert-base-multilingual-cased\T1/gentium/m/n/12 .
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+
+[15])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1630,60 +1718,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [16]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.55003pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.55003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
 
  []
 
-(./5_conclusion.tex) [18
+(./5_conclusion.tex) [17
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 
  []
 
-(./6_annexe.tex [19
+(./6_annexe.tex [18
 
 ]
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 24.88pt on input line 2.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 24.88pt on input line 2.
- [20
+ [19
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
 
  []
 
-[21
+[20
 
 ]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 42.
 
-! Undefined control sequence.
-\@sharp ->\multirow 
-                    {}{}{\textit {Terme}}
-l.47 ...umn{1}{|c|}{\multirow{}{}{\textit{Terme}}}
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.47 ...}{|c|}{\multicolumn{1}{c}{\textit{Terme}}}
                                                    & \multicolumn{1}{c|}{Fré...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-[22]) (./_main.bbl (./_main.brf)
+[21]) (./_main.bbl (./_main.brf)
 \tf@brf=\write6
 \openout6 = `_main.brf'.
 
@@ -1742,7 +1818,7 @@ Underfull \hbox (badness 1472) in paragraph at lines 66--66
   \T1/gentium/m/it/12 Neu-ros-ciences and His-tory\T1/gentium/m/n/12 ,
  []
 
-[23
+[22
 
 
 
@@ -1790,7 +1866,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 168--168
 \T1/lmtt/m/n/12 org / files / Eric % 20Hobsbawm % 20 -[] %20Age % 20Of % 20Revo
 lution % 201789 % 20 -[]
@@ -1810,7 +1886,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[24]
 Underfull \hbox (badness 1577) in paragraph at lines 237--237
 []\T1/gentium/m/n/12 Kuhn, T. S. (1962).  \T1/gentium/m/it/12 The Struc-ture of
  Scien-ti-fic Re-vo-lu-tions\T1/gentium/m/n/12 .  Uni-ver-sity of Chi-cago
@@ -1846,61 +1922,32 @@ cairn . info / freud -[] et -[] la -[] psychanalyse -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
 []\T1/gentium/m/n/12 Rey, A. (2011).  \T1/gentium/m/it/12 Dic-tion-naire his-to
 -rique de la langue fran-çaise\T1/gentium/m/n/12 .  Le Ro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
 \T1/gentium/m/n/12 bert.  [][]$\T1/lmtt/m/n/12 https : / / ia601001 . us . arch
 ive . org / 2 / items / alainreyetal .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
 \T1/lmtt/m/n/12 dictionnairehistoriquedelalanguefrancaise4eed . lerobert2010 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
 \T1/lmtt/m/n/12 Alain % 20Rey % 20et % 20al . %20 -[] %20Dictionnaire % 20histo
 rique % 20de % 20la %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
 \T1/lmtt/m/n/12 20langue % 20francaise % 204e % 20 % C3 % A9d . %20 -[] %20Le %
  20Robert % 20 % 282010 %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-[]\T1/gentium/m/n/12 Robertson, S. E. & Jones, K. S. (1976).  Re-le-vance Weigh
--ting of Search
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-\T1/gentium/m/n/12 Terms.  \T1/gentium/m/it/12 Jour-nal of the Ame-ri-can So-ci
-ety for In-for-ma-tion science\T1/gentium/m/n/12 , 27(3),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-\T1/gentium/m/n/12 129--146.  [][]$\T1/lmtt/m/n/12 https : / / asistdl . online
-library . wiley . com / doi /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-\T1/lmtt/m/n/12 pdf / 10 . 1002 / asi . 4630270302 ? casa _ token = TfyVkMGkDQs
-AAAAA :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-\T1/lmtt/m/n/12 TCuXWzGHjo31RdxGR9jECRG2rZzqv0K3GOzHF7yAa2NfxtDFqxe -[]
  []
 
 
@@ -1911,20 +1958,49 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
-Underfull \hbox (badness 6428) in paragraph at lines 307--307
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]\T1/gentium/m/n/12 Robertson, S. E. & Jones, K. S. (1976).  Re-le-vance Weigh
+-ting of Search
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/gentium/m/n/12 Terms.  \T1/gentium/m/it/12 Jour-nal of the Ame-ri-can So-ci
+ety for In-for-ma-tion science\T1/gentium/m/n/12 , 27(3),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/gentium/m/n/12 129--146.  [][]$\T1/lmtt/m/n/12 https : / / asistdl . online
+library . wiley . com / doi /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmtt/m/n/12 pdf / 10 . 1002 / asi . 4630270302 ? casa _ token = TfyVkMGkDQs
+AAAAA :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmtt/m/n/12 TCuXWzGHjo31RdxGR9jECRG2rZzqv0K3GOzHF7yAa2NfxtDFqxe -[]
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 313--313
 []\T1/gentium/m/n/12 Roudinesco, É. & Plon, M. (2023).  \T1/gentium/m/it/12 Dic
 -tion-naire de la psy-cha-na-lyse\T1/gentium/m/n/12 .  Fayard.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 [][]$\T1/lmtt/m/n/12 https : / / www . fayard . fr / sciences -[] humaines / di
 ctionnaire -[] de -[] la -[]
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 363--363
+Underfull \hbox (badness 1107) in paragraph at lines 375--375
 \T1/gentium/m/n/12 Ty-pis Ja. Fle-sher, im-pen-sis Jo. Mar-tyn & Ja. Al-les-try
 , apud in-signe Cam-panæ in
  []
@@ -1937,7 +2013,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27])
+[26])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1946,22 +2022,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28] (./_main.aux)
+[27] (./_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 21B7B7A667F7BD140988E6D6FAA60713;5161.
+(rerunfilecheck)             Checksum: 92DACC83C19ACA84B8F03F426A838588;5056.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 19BC55CEE008702B1DA1751523B4C641;3018.
+(rerunfilecheck)             Checksum: BFEA44A5D5C0B0FB091D12231C8934C3;3181.
  ) 
 Here is how much of TeX's memory you used:
- 32950 strings out of 476683
- 664846 string characters out of 5804046
- 1863018 words of memory out of 5000000
- 52545 multiletter control sequences out of 15000+600000
+ 33168 strings out of 476683
+ 668819 string characters out of 5804046
+ 1865018 words of memory out of 5000000
+ 52756 multiletter control sequences out of 15000+600000
  601903 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,17n,142p,2716b,1037s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,142p,2716b,1046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.pdf (31 pages).
+Output written on _main.pdf (30 pages).

@@ -3,19 +3,18 @@
 \contentsline {chapter}{\numberline {1}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}L'erreur comme source de la connaissance scientifique}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Jean-Martin Charcot : un médecin polymathe à l'aube de la neurologie moderne}{4}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Pister la circulation du discours médical au prisme du numérique}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Modalités des circulations des savoirs}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Constitution d'un concept historique}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Études numériques des circulations culturelles}{9}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Valorisation du fonds Charcot}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Description du fonds Charcot}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Constitution du corpus Charcot}{13}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Résultats}{14}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{14}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Extraction des phrases-clés : méthodes statistiques}{14}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{17}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Discussion}{17}{section.4.4}%
-\contentsline {chapter}{Conclusion}{18}{chapter.5}%
-\contentsline {chapter}{Annexe}{19}{chapter*.36}%
-\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{21}{chapter*.38}%
-\contentsline {chapter}{References}{23}{table.caption.39}%
+\contentsline {chapter}{\numberline {2}Pister la circulation du discours médical au prisme du numérique}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Modalités des circulations des savoirs}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Constitution d'un concept historique}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Études numériques des circulations culturelles}{8}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Valorisation du fonds Charcot}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Description du fonds Charcot}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Constitution du corpus Charcot}{12}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Résultats}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Extraction des phrases-clés : méthodes statistiques}{13}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{16}{section.4.3}%
+\contentsline {chapter}{Conclusion}{17}{chapter.5}%
+\contentsline {chapter}{Annexe}{18}{chapter*.36}%
+\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{20}{chapter*.38}%
+\contentsline {chapter}{References}{22}{table.caption.39}%

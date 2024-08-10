@@ -20,7 +20,7 @@
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 \setlength{\marginparwidth}{2cm} % Adjust marginpar width if needed
-
+\usepackage{multirow}
 
 \newcommand{\smalltodo}[2][]{\todo[size=\scriptsize, color=white, linecolor=blue, textcolor=black #1]{#2}}
 
@@ -196,6 +196,8 @@ pdfstartview={FitH},
     urlbordercolor=red,
     pdftitle={Overleaf Example},
     pdfpagemode=FullScreen}					% ajuste la page à la largueur de l'écran
+    
+\usepackage{multicol}
 
 \AtBeginDocument{\hypersetup{pdfborder={0 0 1}}}
 \setpdflinkmargin{2pt}

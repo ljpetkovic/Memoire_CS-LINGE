@@ -275,6 +275,12 @@ Nemickien{\.e}, {\v{Z}}. (2011).
 \newblock {\em Filologija}, 16, 26--36.
 \newblock \url{https://core.ac.uk/outputs/62656539?source=oai}.
 
+\bibitem[Petkovic \textit{et~al.}, 2023]{petkovic2023circulation}
+Petkovic, L., Alrahabi, M., \& Roe, G. (2023).
+\newblock Circulation du discours m{\'e}dical de jean-martin charcot.
+\newblock In {\em Humanistica 2023}.
+\newblock \url{https://hal.science/HUMANISTICA-2023/hal-04107099v1}.
+
 \bibitem[Quet, 2014]{quet2014frederic}
 Quet, M. (2014).
 \newblock \say{~{F}r{\'e}d{\'e}ric {D}arbellay, \textit{{L}a circulation des
@@ -352,6 +358,12 @@ Varolio, C. (1573).
   in humano capite obseruatis}.
 \newblock Patavii : apud P. et A. Meiettos fratres.
 \newblock \url{https://gallica.bnf.fr/ark:/12148/bpt6k325486q}.
+
+\bibitem[Vaswani \textit{et~al.}, 2023]{vaswani2023}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
+  Kaiser, L., \& Polosukhin, I. (2023).
+\newblock Attention {I}s {A}ll {Y}ou {N}eed.
+\newblock \url{https://arxiv.org/abs/1706.03762}.
 
 \bibitem[Willis, 1664]{willis1664cerebri}
 Willis, T. (1664).
