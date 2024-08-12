@@ -17,4 +17,4 @@
 \contentsline {chapter}{Conclusion}{17}{chapter.5}%
 \contentsline {chapter}{Annexe}{18}{chapter*.36}%
 \contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{20}{chapter*.38}%
-\contentsline {chapter}{References}{22}{table.caption.39}%
+\contentsline {chapter}{References}{23}{table.caption.41}%
