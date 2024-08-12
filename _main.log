@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  12 AUG 2024 17:13
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  12 AUG 2024 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1669,9 +1669,15 @@ LaTeX Font Info:    Font shape `T1/gentium/b/sc' will be
 (Font)              scaled to size 17.28pt on input line 3.
 LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 4.
+
+Underfull \hbox (badness 1931) in paragraph at lines 4--4
+[][][]\T1/gentium/m/n/10 .[][]\T1/gentium/m/it/10 Cf. \T1/gentium/m/n/10 le gui
+de d'uti-li-sa-tion d'\T1/gentium/m/sc/10 OBVIE \T1/gentium/m/n/10 dé-taillé : 
+[][]$\T1/lmtt/m/n/10 https : / / obtic . huma -[] num . fr / obvie / /static /
+ []
+
 File: img/bulbe_rachidien_mini.png Graphic file (type bmp)
 <img/bulbe_rachidien_mini.png>
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1695,11 +1701,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: img/Charcot_Autres_250523.png Graphic file (type bmp)
 <img/Charcot_Autres_250523.png>
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Overfull \hbox (1.4575pt too wide) in paragraph at lines 42--44
 \T1/gentium/m/n/12 Pour ce tra-vail en cours, nous avons uti-lisé le mo-dèle \T
 1/lmtt/m/n/12 bert-base-multilingual-cased\T1/gentium/m/n/12 .
  []
 
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1708,7 +1719,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[15])
+[15]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -2050,14 +2061,19 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 0012457B4A089058EB55192EB72A180C;5056.
-Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: BFEA44A5D5C0B0FB091D12231C8934C3;3181.
+
+Package rerunfilecheck Warning: File `_main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `_main.brf':
+(rerunfilecheck)             Before: 57361D06DC8663B7638636E8A3CECB12;3181
+(rerunfilecheck)             After:  1ABDCEBDD695D4B1500753E3048ADA71;3181.
  ) 
 Here is how much of TeX's memory you used:
- 33169 strings out of 476683
- 668828 string characters out of 5804046
+ 33170 strings out of 476683
+ 668848 string characters out of 5804046
  1866018 words of memory out of 5000000
- 52757 multiletter control sequences out of 15000+600000
+ 52758 multiletter control sequences out of 15000+600000
  601903 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,17n,142p,2716b,1046s stack positions out of 10000i,1000n,20000p,200000b,200000s
