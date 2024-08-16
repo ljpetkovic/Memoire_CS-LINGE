@@ -152,6 +152,12 @@ Gomes, M. d.~M. \& Engelhardt, E. (2013).
 \newblock {\em Arquivos de {N}euro-{P}siquiatria}, 71, 815--817.
 \newblock \url{https://doi.org/10.1590/0004-282X20130128}.
 
+\bibitem[Grootendorst \textit{et~al.}, 2023]{grootendorst2023}
+Grootendorst, M., Mishra, A., Matsak, A., OysterMax, Govil, P., Ogura, Y.,
+  Warmerdam, V.~D., \& yusuke1997 (2023).
+\newblock Maartengr/keybert: v0.8.
+\newblock \url{https://doi.org/10.5281/zenodo.8388690}.
+
 \bibitem[Hey \textit{et~al.}, 2009]{hey2009jim}
 Hey, T., Tansley, S., \& Tolle, K.~M. (2009).
 \newblock Jim {G}ray on e{S}cience: A {T}ransformed {S}cientific {M}ethod.
@@ -168,8 +174,8 @@ Hobsbawm, E. (2010).
 
 \bibitem[Johns, 1991]{Johns1991ShouldYB}
 Johns, T.~F. (1991).
-\newblock Should you be persuaded. two samples of data-driven learning
-  materials.
+\newblock Should {Y}ou be {P}ersuaded. {T}wo {S}amples of {D}ata-{D}riven
+  {L}earning {M}aterials.
 \newblock \url{https://api.semanticscholar.org/CorpusID:53988458}.
 
 \bibitem[Joyeux-Prunel, 2019]{joyeux2019visual}
@@ -226,7 +232,7 @@ Koyr{\'e}, A. (1957).
 \newblock {\em From the Closed World to the Infinite Universe}, volume~1.
 \newblock Baltimore, Johns Hopkins Press.
 \newblock
-  \url{https://archive.org/details/fromclosedworldt0000koyr/page/n13/mode/2up?q=revolution}.
+  \url{https://archive.org/details/fromclosedworldt0000koyr/page/2/mode/2up?q=\%22revolution\%22}.
 
 \bibitem[Kuhn, 1962]{kuhn1962structure}
 Kuhn, T.~S. (1962).
@@ -275,6 +281,13 @@ Nemickien{\.e}, {\v{Z}}. (2011).
 \newblock {\em Filologija}, 16, 26--36.
 \newblock \url{https://core.ac.uk/outputs/62656539?source=oai}.
 
+\bibitem[Nerima \textit{et~al.}, 2006]{nerima2006}
+Nerima, L., Seretan, V., \& Wehrli, E. (2006).
+\newblock Le problème des collocations en tal.
+\newblock {\em Nouveaux cahiers de linguistique française}, 27, 95--115.
+\newblock
+  \url{https://access.archive-ouverte.unige.ch/access/metadata/fc3fad28-5b90-42ec-bea5-0c6d54cb5452/download}.
+
 \bibitem[Petkovic \textit{et~al.}, 2022]{petkovic2022impact}
 Petkovic, L., Alrahabi, M., \& Glenn, R. (2022).
 \newblock Impact de la correction automatique de l’ocr/htr sur la
@@ -296,12 +309,12 @@ Quet, M. (2014).
 \newblock {\em Revue d'anthropologie des connaissances}, 8(8-1).
 \newblock \url{https://doi.org/10.3917/rac.022.0221}.
 
-\bibitem[Rey, 2011]{rey2011dictionnaire}
-Rey, A. (2011).
-\newblock {\em Dictionnaire historique de la langue fran{\c{c}}aise}.
+\bibitem[Rey, 1998]{rey2011dictionnaire}
+Rey, A. (1998).
+\newblock {\em Dictionnaire historique de la langue fran{\c{c}}aise. Tome 2}.
 \newblock Le {R}obert.
 \newblock
-  \url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain\%20Rey\%20et\%20al.\%20-\%20Dictionnaire\%20historique\%20de\%20la\%20langue\%20francaise\%204e\%20\%C3\%A9d.\%20-\%20Le\%20Robert\%20\%282010\%29.pdf}.
+  \url{https://www.plouffe.fr/simon/Dictionnaires/Le\%20Robert\%20Dictionnaire\%20Historique\%202a.pdf}.
 
 \bibitem[Riguet, 2018]{riguet2018impact}
 Riguet, M. (2018).
@@ -319,6 +332,13 @@ Robertson, S.~E. \& Jones, K.~S. (1976).
 \newblock
   \url{https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.4630270302?casa_token=TfyVkMGkDQsAAAAA:TCuXWzGHjo31RdxGR9jECRG2rZzqv0K3GOzHF7yAa2NfxtDFqxe-MmSHMC6e8OFiFxI4sLj2aW6OyDk}.
 
+\bibitem[Roe \textit{et~al.}, 2023]{roe2023enlightenment}
+Roe, G., Fedchenko, V., \& Nicolosi, D.~M. (2023).
+\newblock Enlightenment {I}nflluencers: {N}etworks of {T}ext {R}euse in
+  18\textsuperscript{th}-century {F}rance.
+\newblock In {\em Digital Humanities 2023}  (pp.\ 296--299).
+\newblock \url{https://doi.org/10.5281/zenodo.8107964}.
+
 \bibitem[Roudinesco \& Plon, 2023]{roudinesco}
 Roudinesco, {\'E}. \& Plon, M. (2023).
 \newblock {\em Dictionnaire de la psychanalyse}.
@@ -326,9 +346,19 @@ Roudinesco, {\'E}. \& Plon, M. (2023).
 \newblock
   \url{https://www.fayard.fr/sciences-humaines/dictionnaire-de-la-psychanalyse-nouvelle-edition-9782213725277}.
 
+\bibitem[Schopf. \textit{et~al.}, 2022]{kdir22}
+Schopf., T., Klimek., S., \& Matthes., F. (2022).
+\newblock Pattern{R}ank: {L}everaging {P}retrained {L}anguage {M}odels and
+  {P}art of {S}peech for {U}nsupervised {K}eyphrase {E}xtraction.
+\newblock In {\em Proceedings of the 14\textsuperscript{th} International Joint
+  Conference on Knowledge Discovery, Knowledge Engineering and Knowledge
+  Management (IC3K 2022) - KDIR}  (pp.\ 243--248).: INSTICC  SciTePress.
+\newblock \url{https://doi.org/10.5220/0011546600003335}.
+
 \bibitem[Stengers, 1987]{stengers1987d}
 Stengers, I. (1987).
-\newblock D'une science {\`a} l'autre.: Des concepts nomades.
+\newblock {\em D'une science {\`a} l'autre.: Des concepts nomades}.
+\newblock Seuil.
 \newblock \url{https://archive.org/details/dunesciencealaut0000unse}.
 
 \bibitem[Tasca \textit{et~al.}, 2012]{tasca2012women}

@@ -7,48 +7,49 @@ I was expecting a `,' or a `}'---line 444 of file bibliographie.bib
  :   sortname = {Stepanov2007} 
  :                             % Add this field for sorting
 I'm skipping whatever remains of this entry
+Warning--entry type for "grootendorst2023" isn't style-file defined
+--line 536 of file bibliographie.bib
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
-Warning--empty journal in stengers1987d
-You've used 55 entries,
+You've used 59 entries,
             2229 wiz_defined-function locations,
-            876 strings with 17837 characters,
-and the built_in function-call counts, 20175 in all, are:
-= -- 2003
-> -- 715
-< -- 52
-+ -- 238
-- -- 231
-* -- 1534
-:= -- 3589
-add.period$ -- 217
-call.type$ -- 55
-change.case$ -- 368
-chr.to.int$ -- 54
-cite$ -- 58
-duplicate$ -- 835
-empty$ -- 1462
-format.name$ -- 296
-if$ -- 3976
+            903 strings with 18857 characters,
+and the built_in function-call counts, 22183 in all, are:
+= -- 2205
+> -- 812
+< -- 54
++ -- 272
+- -- 265
+* -- 1695
+:= -- 3923
+add.period$ -- 233
+call.type$ -- 59
+change.case$ -- 404
+chr.to.int$ -- 58
+cite$ -- 61
+duplicate$ -- 914
+empty$ -- 1592
+format.name$ -- 334
+if$ -- 4391
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 69
-newline$ -- 326
-num.names$ -- 171
-pop$ -- 342
+missing$ -- 73
+newline$ -- 350
+num.names$ -- 183
+pop$ -- 379
 preamble$ -- 1
-purify$ -- 387
+purify$ -- 424
 quote$ -- 0
-skip$ -- 614
+skip$ -- 673
 stack$ -- 0
-substring$ -- 1213
-swap$ -- 100
-text.length$ -- 11
+substring$ -- 1339
+swap$ -- 122
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 294
-warning$ -- 3
-while$ -- 162
+type$ -- 316
+warning$ -- 2
+while$ -- 176
 width$ -- 0
-write$ -- 797
+write$ -- 858
 (There was 1 error message)
