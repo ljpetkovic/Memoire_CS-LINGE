@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  12 AUG 2024 19:06
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  16 AUG 2024 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1332,25 +1332,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--289
  []
 
 (./1_intro.tex
-LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 7.79993pt on input line 2.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 2.
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 8.0pt on input line 2.
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 10.0pt on input line 3.
+(Font)              scaled to size 7.79993pt on input line 2.
+LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 10.0pt on input line 3.
+(Font)              scaled to size 10.0pt on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 3.
+(Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 3.
-) [1
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
+(Font)              scaled to size 12.0pt on input line 4.
+ [1
 
-]
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+
+[2]
 Chapitre 1.
 LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
 (Font)              scaled to size 20.74pt on input line 293.
@@ -1371,7 +1382,7 @@ LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
 File: img/changement_paradigme.png Graphic file (type bmp)
 <img/changement_paradigme.png>
- [2
+ [3
 
 ]
 
@@ -1447,7 +1458,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
+[4]
 Overfull \hbox (4.28262pt too wide) in paragraph at lines 50--50
 |[]\T1/gentium/b/n/17.28 Jean-Martin Char-cot : un mé-de-cin po-ly-mathe à l'au
 be
@@ -1461,7 +1472,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-17.05003pt}.
 
-[4]
+[5]
 LaTeX Font Info:    Font shape `TS1/gentium/m/n' will be
 (Font)              scaled to size 12.0pt on input line 63.
 
@@ -1479,7 +1490,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-17.05003pt}.
 
-[5]
+[6]
 Chapitre 2.
 
 Overfull \hbox (26.32384pt too wide) in paragraph at lines 297--297
@@ -1491,7 +1502,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--297
 
  []
 
-(./2_SotA.tex [6
+(./2_SotA.tex [7
 
 ]
 Overfull \hbox (3.21371pt too wide) in paragraph at lines 27--28
@@ -1561,7 +1572,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7]
+[8]
 Overfull \hbox (4.47742pt too wide) in paragraph at lines 53--54
 \T1/gentium/m/n/12 trice à l'égard de leur émer-gence, no-tam-ment pour dé-ter-
 mi-ner à quel mo-ment un concept
@@ -1581,7 +1592,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[8])
+[9])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1590,7 +1601,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[9]
+[10]
 Chapitre 3.
 
 Overfull \hbox (26.32384pt too wide) in paragraph at lines 301--301
@@ -1632,7 +1643,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
  2C % 20Jean -[] Martin % 22 % 29 & lang = fr &
  []
 
-[10
+[11
 
 ]
 
@@ -1643,7 +1654,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11])
+[12])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1652,7 +1663,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12]
+[13]
 Chapitre 4.
 
 Overfull \hbox (26.32384pt too wide) in paragraph at lines 305--305
@@ -1686,7 +1697,7 @@ File: img/textpair.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13
+[14
 
 ]
 
@@ -1697,7 +1708,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[14]
+[15]
 File: img/Charcot_Autres_250523.png Graphic file (type bmp)
 <img/Charcot_Autres_250523.png>
 
@@ -1719,7 +1730,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[15]
+[16]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1728,12 +1739,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[16]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 315--315
 
  []
 
-(./5_conclusion.tex) [17
+(./5_conclusion.tex) [18
 
 
 ]
@@ -1741,14 +1752,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 319--319
 
  []
 
-(./6_annexe.tex [18
+(./6_annexe.tex [19
 
 ]
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 24.88pt on input line 2.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 24.88pt on input line 2.
- [19
+ [20
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
@@ -1760,7 +1771,7 @@ Overfull \hbox (261.83383pt too wide) in paragraph at lines 25--55
 [][] 
  []
 
-[20
+[21
 
 ]
 Overfull \hbox (188.10387pt too wide) in paragraph at lines 63--106
@@ -1779,7 +1790,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[21]
+[22]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 129.
@@ -1792,7 +1803,7 @@ l.134 ...{|c|}{\multicolumn{1}{c}{\textit{Terme}}}
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-[22]) (./_main.bbl (./_main.brf)
+[23]) (./_main.bbl (./_main.brf)
 \tf@brf=\write6
 \openout6 = `_main.brf'.
 
@@ -1851,7 +1862,7 @@ Underfull \hbox (badness 1472) in paragraph at lines 66--66
   \T1/gentium/m/it/12 Neu-ros-ciences and His-tory\T1/gentium/m/n/12 ,
  []
 
-[23
+[24
 
 
 
@@ -1899,7 +1910,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 168--168
 \T1/lmtt/m/n/12 org / files / Eric % 20Hobsbawm % 20 -[] %20Age % 20Of % 20Revo
 lution % 201789 % 20 -[]
@@ -1919,7 +1930,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[26]
 Underfull \hbox (badness 1577) in paragraph at lines 237--237
 []\T1/gentium/m/n/12 Kuhn, T. S. (1962).  \T1/gentium/m/it/12 The Struc-ture of
  Scien-ti-fic Re-vo-lu-tions\T1/gentium/m/n/12 .  Uni-ver-sity of Chi-cago
@@ -1954,31 +1965,33 @@ Underfull \hbox (badness 1603) in paragraph at lines 270--270
 cairn . info / freud -[] et -[] la -[] psychanalyse -[]
  []
 
+Missing character: There is no ’ ("2019) in font ec-gentiumplus-regular!
+Missing character: There is no ’ ("2019) in font ec-gentiumplus-regular!
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 []\T1/gentium/m/n/12 Rey, A. (2011).  \T1/gentium/m/it/12 Dic-tion-naire his-to
 -rique de la langue fran-çaise\T1/gentium/m/n/12 .  Le Ro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 \T1/gentium/m/n/12 bert.  [][]$\T1/lmtt/m/n/12 https : / / ia601001 . us . arch
 ive . org / 2 / items / alainreyetal .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 \T1/lmtt/m/n/12 dictionnairehistoriquedelalanguefrancaise4eed . lerobert2010 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 \T1/lmtt/m/n/12 Alain % 20Rey % 20et % 20al . %20 -[] %20Dictionnaire % 20histo
 rique % 20de % 20la %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 \T1/lmtt/m/n/12 20langue % 20francaise % 204e % 20 % C3 % A9d . %20 -[] %20Le %
  20Robert % 20 % 282010 %
  []
@@ -1991,53 +2004,62 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 []\T1/gentium/m/n/12 Robertson, S. E. & Jones, K. S. (1976).  Re-le-vance Weigh
 -ting of Search
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 \T1/gentium/m/n/12 Terms.  \T1/gentium/m/it/12 Jour-nal of the Ame-ri-can So-ci
 ety for In-for-ma-tion science\T1/gentium/m/n/12 , 27(3),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 \T1/gentium/m/n/12 129--146.  [][]$\T1/lmtt/m/n/12 https : / / asistdl . online
 library . wiley . com / doi /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 \T1/lmtt/m/n/12 pdf / 10 . 1002 / asi . 4630270302 ? casa _ token = TfyVkMGkDQs
 AAAAA :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 \T1/lmtt/m/n/12 TCuXWzGHjo31RdxGR9jECRG2rZzqv0K3GOzHF7yAa2NfxtDFqxe -[]
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 313--313
+Underfull \hbox (badness 6428) in paragraph at lines 328--328
 []\T1/gentium/m/n/12 Roudinesco, É. & Plon, M. (2023).  \T1/gentium/m/it/12 Dic
 -tion-naire de la psy-cha-na-lyse\T1/gentium/m/n/12 .  Fayard.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 [][]$\T1/lmtt/m/n/12 https : / / www . fayard . fr / sciences -[] humaines / di
 ctionnaire -[] de -[] la -[]
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 375--375
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28]
+Underfull \hbox (badness 1107) in paragraph at lines 390--390
 \T1/gentium/m/n/12 Ty-pis Ja. Fle-sher, im-pen-sis Jo. Mar-tyn & Ja. Al-les-try
 , apud in-signe Cam-panæ in
  []
 
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2046,36 +2068,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[28] (./_main.aux)
+[29] (./_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 0012457B4A089058EB55192EB72A180C;5056.
-
-Package rerunfilecheck Warning: File `_main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `_main.brf':
-(rerunfilecheck)             Before: 57361D06DC8663B7638636E8A3CECB12;3181
-(rerunfilecheck)             After:  1ABDCEBDD695D4B1500753E3048ADA71;3181.
+(rerunfilecheck)             Checksum: 2AC9E5F20F0663EA74FDD760086ED58E;5056.
+Package rerunfilecheck Info: File `_main.brf' has not changed.
+(rerunfilecheck)             Checksum: 458DB43264EEB4A1981AACC7FF00A4A8;3280.
  ) 
 Here is how much of TeX's memory you used:
- 33170 strings out of 476683
- 668848 string characters out of 5804046
+ 33203 strings out of 476683
+ 669616 string characters out of 5804046
  1866018 words of memory out of 5000000
- 52758 multiletter control sequences out of 15000+600000
- 601903 words of font info for 118 fonts, out of 8000000 for 9000
+ 52791 multiletter control sequences out of 15000+600000
+ 604196 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,17n,142p,2716b,1046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.pdf (31 pages).
+Output written on _main.pdf (32 pages).
