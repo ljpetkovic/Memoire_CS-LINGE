@@ -23,12 +23,12 @@ Concernant l'alignement des séquences similaires aux deux corpus, \textsc{TextP
 \label{methodo_stat}
 Afin de surmonter les limites rencontrées avec ces deux outils, nous avons proposé une nouvelle méthode pour identifier des concepts dans les deux corpus en nous basant sur le poids de leur apparition, calculé selon trois différentes mesures de pondération\footnote{Le code est disponible en ligne : \url{https://github.com/ljpetkovic/Charcot\_circulations}.} :
 \begin{itemize}
-\item \textsc{TF-IDF} est une méthode qui permet d'évaluer l'importance d'un terme contenu dans un document relativement à un corpus plus large en récompensant la fréquence des termes, sans tenir compte des variations de longueur du document ;
-\item \textsc{BM25} est une fonction de classement qui classe un ensemble de documents en fonction des termes de requête apparaissant dans chaque document, quelle que soit l'interrelation entre les termes de requête au sein d'un document (par exemple, leur proximité relative). Il s'agit d'une tentative d'amélioration de \textsc{TF-IDF}, notamment pour prendre en compte divers facteurs tels que la longueur du document et les problèmes engendrés par la possible saturation des termes \citep{robertson1976relevance} ;
+\item \textsc{TF-IDF} \citep{robertson1976relevance} est une méthode qui permet d'évaluer l'importance d'un terme contenu dans un document relativement à un corpus plus large en récompensant la fréquence des termes, sans tenir compte des variations de longueur du document ;
+\item \textsc{BM25} est une fonction de classement qui classe un ensemble de documents en fonction des termes de requête apparaissant dans chaque document, quelle que soit l'interrelation entre les termes de requête au sein d'un document (par exemple, leur proximité relative). Il s'agit d'une tentative d'amélioration de \textsc{TF-IDF}, notamment pour prendre en compte divers facteurs tels que la longueur du document et les problèmes engendrés par la possible saturation des termes \citep[p.~355]{robertson2009probabilistic} ;
 \item \textsc{BERT} \citep{devlin2019} est un modèle pré-entraîné qui utilise l'apprentissage non-supervisé sur de grandes quantités de données textuelles pour apprendre des représentations de mots et de phrases, et comprendre le contexte et la sémantique. Il est basé sur l'architecture des \textit{transformeurs}, qui est un type de réseau de neurones utilisé pour le traitement du langage naturel.
 \end{itemize}
 
-La liste des concepts retenus pour l'étude est composée de termes ou expressions popularisés par Charcot, comme \textit{hystérie}, \textit{sclérose latérale} etc. \citep{camargo2024} \footnote{\textit{Cf.} la liste exhaustive des termes et des expressions popularisées par Charcot en annexe, partie \ref{termes_expressions}.}. Pour chaque entrée, nous avons pris en compte les formes du singulier et du pluriel obtenues grâce à des expressions régulières. La liste est  produite de façon supervisée et provient du croisement entre la liste des termes obtenus avec OBVIE et l'index d'une édition des \oe{}uvres complètes de \citet{charcot1892oeuvres}, dont nous avons retiré les termes génériques (\textit{os}, \textit{cerveau}, etc.).
+La liste des concepts retenus pour l'étude est composée de termes ou expressions popularisés par Charcot, comme \textit{hystérie}, \textit{sclérose latérale} etc. \citep[p.~1102]{camargo2024} \footnote{\textit{Cf.} la liste exhaustive des termes et des expressions popularisées par Charcot en annexe, partie \ref{termes_expressions}.}. Pour chaque entrée, nous avons pris en compte les formes du singulier et du pluriel obtenues grâce à des expressions régulières. La liste est  produite de façon supervisée et provient du croisement entre la liste des termes obtenus avec OBVIE et l'index d'une édition des \oe{}uvres complètes de \cite[pp.~493--507]{charcot1892oeuvres}, dont nous avons retiré les termes génériques (\textit{os}, \textit{cerveau}, etc.).
 
 Comme nous pouvons l'observer sur la figure \ref{fig:bm25}, la mesure \textsc{BM25} révèle une intensification du lexique de Charcot dans le corpus \og{}Autres\fg{}. Autrement dit, tous les termes évalués sont identifiés comme plus signifiants dans le discours des \og{}Autres\fg{} que dans celui de Charcot, les scores étant plus élevés pour 14 termes (sur 14 évalués) utilisés par le réseau de Charcot. D'ailleurs, d'après le tableau \ref{tab:calculs_stat} (en annexe), c'est la seule mesure dont les valeurs témoignent clairement d'un lexique partagé entre Charcot et ses successeurs et collaborateurs, \textit{a contrario} des deux autres mesures, où le rapport en question est inversé (la grande majorité des termes étant plus pertinente dans le discours de Charcot, et son impact étant donc moins accentué). Concrètement, les termes les plus pertinents semblent être \textit{sclérose en plaque disséminées} (score 0,83), \textit{paralysie rhumatismale} (0,68), \textit{atrophie progressive} (0,53) et \textit{arthrite déformante} (0,50).
 
@@ -44,19 +44,24 @@ D'autre part, nous avons utilisé \textsc{BERT} pour mesurer le poids des termes
 \section{Extraction des phrases-clés : méthode à base d'apprentissage profond}
 méthode non-supervisée
 
-\textsc{KeyBERT}\footnote{\url{https://maartengr.github.io/KeyBERT/}} et \textsc{Keyphrase-Vectorizers}\footnote{\url{https://pypi.org/project/keyphrase-vectorizers/}}
+\textsc{KeyBERT} \citep{grootendorst2023}\footnote{\url{https://maartengr.github.io/KeyBERT/}} et \textsc{Keyphrase-Vectorizers}\footnote{\url{https://pypi.org/project/keyphrase-vectorizers/}}
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{img/keybert.png}
-    \caption{\textit{Pipeline} de la librairie \texttt{keybert} \citep{grootendorst2023}.}
+    \caption{\textit{Pipeline} de la librairie \texttt{keybert}.}
+    
+    \url{https://maartengr.github.io/KeyBERT/guides/quickstart.html#installation}
+    
+    .
     \label{fig:bm25}
 \end{figure}
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{img/patternrank_workflow.png}
-    \caption{\textit{Workflow} de la méthode \textit{PatternRank} \citep{kdir22}}
+    \caption{\textit{Workflow} de la méthode \textit{PatternRank} \citep[p.~2]{schopf2022}}
     \label{fig:bm25}
 \end{figure}
+
 
 

@@ -197,7 +197,7 @@ Kant, {\'E}. (1863).
   J. Tissot)}}.
 \newblock Librairie Ladrange (originalement publié en 1798).
 \newblock
-  \url{https://fr.wikisource.org/wiki/Anthropologie_d\%E2\%80\%99un_point_de_vue_pragmatique}.
+  \url{https://fr.wikisource.org/wiki/Page:Kant\_-\_Anthropologie.djvu/452}.
 
 \bibitem[Kneib, 2011]{kneib2011etude}
 Kneib, M. (2011).
@@ -274,6 +274,19 @@ Marmion, J.-F. (2015).
 \newblock
   \url{https://www.cairn.info/freud-et-la-psychanalyse--9782361063542-page-22.htm}.
 
+\bibitem[Mirbeau \& Michel, 1995]{mirbeau1995chroniques}
+Mirbeau, O. \& Michel, P. (1995).
+\newblock {\em Chroniques du diable}, volume 555.
+\newblock Presses Univ. Franche-Comt{\'e}.
+\newblock \url{https://books.openedition.org/pufc/2874?lang=en}.
+
+\bibitem[Monteiro \textit{et~al.}, 2021]{monteiro2021}
+Monteiro, F., Nardi, A., \& Gomes, M. (2021).
+\newblock The 400th anniversary of the birth of thomas willis (1621-1675): an
+  invaluable contributor to neuroscience.
+\newblock {\em Revista Brasileira de Psiquiatria}, 44.
+\newblock \url{https://doi.org/10.1590/1516-4446-2021-2159}.
+
 \bibitem[Nemickien{\.e}, 2011]{nemickiene2011concept}
 Nemickien{\.e}, {\v{Z}}. (2011).
 \newblock ``{C}oncept'' in {M}odern {L}inguistics: the {C}omponent of the
@@ -324,6 +337,13 @@ Riguet, M. (2018).
 \newblock {\em Epist{\'e}mocritique: Litt{\'e}rature et savoirs}.
 \newblock \url{https://hal.science/hal-01903871}.
 
+\bibitem[Robertson \textit{et~al.}, 2009]{robertson2009probabilistic}
+Robertson, S., Zaragoza, H., \textit{et~al.} (2009).
+\newblock The probabilistic relevance framework: Bm25 and beyond.
+\newblock {\em Foundations and Trends{\textregistered} in Information
+  Retrieval}, 3(4), 333--389.
+\newblock \url{https://dx.doi.org/10.1561/1500000019}.
+
 \bibitem[Robertson \& Jones, 1976]{robertson1976relevance}
 Robertson, S.~E. \& Jones, K.~S. (1976).
 \newblock Relevance {W}eighting of {S}earch {T}erms.
@@ -346,14 +366,14 @@ Roudinesco, {\'E}. \& Plon, M. (2023).
 \newblock
   \url{https://www.fayard.fr/sciences-humaines/dictionnaire-de-la-psychanalyse-nouvelle-edition-9782213725277}.
 
-\bibitem[Schopf. \textit{et~al.}, 2022]{kdir22}
-Schopf., T., Klimek., S., \& Matthes., F. (2022).
+\bibitem[Schopf \textit{et~al.}, 2022]{schopf2022}
+Schopf, T., Klimek, S., \& Matthes, F. (2022).
 \newblock Pattern{R}ank: {L}everaging {P}retrained {L}anguage {M}odels and
   {P}art of {S}peech for {U}nsupervised {K}eyphrase {E}xtraction.
 \newblock In {\em Proceedings of the 14\textsuperscript{th} International Joint
   Conference on Knowledge Discovery, Knowledge Engineering and Knowledge
-  Management (IC3K 2022) - KDIR}  (pp.\ 243--248).: INSTICC  SciTePress.
-\newblock \url{https://doi.org/10.5220/0011546600003335}.
+  Management}: SCITEPRESS -- Science and Technology Publications.
+\newblock \url{http://dx.doi.org/10.5220/0011546600003335}.
 
 \bibitem[Stengers, 1987]{stengers1987d}
 Stengers, I. (1987).
