@@ -9,48 +9,50 @@ I was expecting a `,' or a `}'---line 444 of file bibliographie.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "grootendorst2023" isn't style-file defined
 --line 536 of file bibliographie.bib
+Warning--I'm ignoring RENNESSON202015's extra "note" field
+--line 664 of file bibliographie.bib
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
 Warning--there's a number but no volume in riffaterre1980trace
-You've used 64 entries,
+You've used 67 entries,
             2229 wiz_defined-function locations,
-            935 strings with 19921 characters,
-and the built_in function-call counts, 23781 in all, are:
-= -- 2358
-> -- 876
+            958 strings with 20980 characters,
+and the built_in function-call counts, 25204 in all, are:
+= -- 2488
+> -- 970
 < -- 57
-+ -- 296
-- -- 285
-* -- 1824
-:= -- 4225
-add.period$ -- 253
-call.type$ -- 64
-change.case$ -- 436
-chr.to.int$ -- 63
-cite$ -- 67
-duplicate$ -- 976
-empty$ -- 1706
-format.name$ -- 361
-if$ -- 4685
++ -- 330
+- -- 319
+* -- 1961
+:= -- 4487
+add.period$ -- 265
+call.type$ -- 67
+change.case$ -- 468
+chr.to.int$ -- 66
+cite$ -- 70
+duplicate$ -- 1017
+empty$ -- 1783
+format.name$ -- 398
+if$ -- 4950
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 79
-newline$ -- 380
-num.names$ -- 199
-pop$ -- 407
+missing$ -- 82
+newline$ -- 398
+num.names$ -- 208
+pop$ -- 430
 preamble$ -- 1
-purify$ -- 458
+purify$ -- 490
 quote$ -- 0
-skip$ -- 712
+skip$ -- 743
 stack$ -- 0
-substring$ -- 1416
-swap$ -- 119
+substring$ -- 1485
+swap$ -- 122
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 342
+type$ -- 360
 warning$ -- 3
-while$ -- 188
+while$ -- 196
 width$ -- 0
-write$ -- 930
+write$ -- 975
 (There was 1 error message)

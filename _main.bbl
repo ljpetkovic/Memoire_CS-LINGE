@@ -178,6 +178,13 @@ Johns, T.~F. (1991).
   {L}earning {M}aterials.
 \newblock \url{https://api.semanticscholar.org/CorpusID:53988458}.
 
+\bibitem[Jolly \textit{et~al.}, 2024]{jolly2024exploring}
+Jolly, A., Pandey, V., Singh, I., \& Sharma, N. (2024).
+\newblock Exploring {B}iomedical {N}amed {E}ntity {R}ecognition via
+  {S}ci{S}pacy and {B}io{BERT} models.
+\newblock {\em The Open Biomedical Engineering Journal}, 18(1).
+\newblock \url{https://doi.org/10.2174/0118741207289680240510045617}.
+
 \bibitem[Joyeux-Prunel, 2019]{joyeux2019visual}
 Joyeux-Prunel, B. (2019).
 \newblock Visual {C}ontagions, the {A}rt {H}istorian, and the {D}igital
@@ -294,6 +301,14 @@ Monteiro, F., Nardi, A., \& Gomes, M. (2021).
 \newblock {\em Revista Brasileira de Psiquiatria}, 44.
 \newblock \url{https://doi.org/10.1590/1516-4446-2021-2159}.
 
+\bibitem[Navarro \textit{et~al.}, 2023]{navarro2023clinical}
+Navarro, D.~F., Ijaz, K., Rezazadegan, D., Rahimi-Ardabili, H., Dras, M.,
+  Coiera, E., \& Berkovsky, S. (2023).
+\newblock Clinical named entity recognition and relation extraction using
+  natural language processing of medical free text: A systematic review.
+\newblock {\em International Journal of Medical Informatics}, 177, 105122.
+\newblock \url{https://doi.org/10.1016/j.ijmedinf.2023.105122}.
+
 \bibitem[Nemickien{\.e}, 2011]{nemickiene2011concept}
 Nemickien{\.e}, {\v{Z}}. (2011).
 \newblock ``{C}oncept'' in {M}odern {L}inguistics: the {C}omponent of the
@@ -328,6 +343,15 @@ Quet, M. (2014).
   m{\'e}taphores~}}.
 \newblock {\em Revue d'anthropologie des connaissances}, 8(8-1).
 \newblock \url{https://doi.org/10.3917/rac.022.0221}.
+
+\bibitem[Rennesson \textit{et~al.}, 2020]{RENNESSON202015}
+Rennesson, M., Georget, M., Paillard, C., Perrin, O., Pigeotte, H., \& Tête,
+  C. (2020).
+\newblock Le thésaurus, un vocabulaire contrôlé pour parler le même
+  langage.
+\newblock {\em Médecine Palliative}, 19(1), 15--23.
+\newblock Documentation et pratiques documentaires en soins palliatifs.
+  Coordonné par Caroline Tête.
 
 \bibitem[Rey, 1998]{rey2011dictionnaire}
 Rey, A. (1998).
