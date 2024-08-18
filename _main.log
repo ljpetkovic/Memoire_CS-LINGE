@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  18 AUG 2024 15:19
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  18 AUG 2024 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1567,14 +1567,20 @@ tchLowercase,Script=Cyrillic].
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
-(Font)              scaled to size 11.56348pt on input line 35.
+(Font)              scaled to size 11.56348pt on input line 38.
 
-Overfull \hbox (1.47531pt too wide) in paragraph at lines 48--48
+Overfull \hbox (8.30125pt too wide) in paragraph at lines 36--39
+\T1/gentium/m/n/12 primé par de dif-fé-rentes élé-ments du lan-gage, soit : lex
+èmes, idiomes, col-lo-ca-tions, phrases
+ []
+
+
+Overfull \hbox (1.47531pt too wide) in paragraph at lines 47--47
 [][][]\T1/gentium/m/n/8 Begriffsgeschi- 
  []
 
 
-Overfull \hbox (1.47531pt too wide) in paragraph at lines 48--48
+Overfull \hbox (1.47531pt too wide) in paragraph at lines 47--47
 [][][]\T1/gentium/m/n/8 Begriffsgeschi- 
  []
 
@@ -1587,19 +1593,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-Overfull \hbox (4.47742pt too wide) in paragraph at lines 52--53
+Overfull \hbox (4.47742pt too wide) in paragraph at lines 51--52
 \T1/gentium/m/n/12 trice à l'égard de leur émer-gence, no-tam-ment pour dé-ter-
 mi-ner à quel mo-ment un concept
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . fabula . o
 rg / actualites / 86846 / circulation -[] des -[] ecrits -[] litteraires -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . crihn . or
 g / nouvelles / 2022 / 12 / 11 / colloque -[] de -[] la -[] transformation -[]
  []
@@ -1989,18 +1995,30 @@ T1/gentium/m/n/12 , 26, 331--333.  [][]$\T1/lmtt/m/n/12 https : / / doi . org /
  10 . 4000 /
  []
 
-LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 8.0pt on input line 269.
 
-Underfull \hbox (badness 1603) in paragraph at lines 276--276
-\T1/gentium/m/n/12 Sciences Hu-maines.  [][]$\T1/lmtt/m/n/12 https : / / www . 
-cairn . info / freud -[] et -[] la -[] psychanalyse -[]
+Underfull \hbox (badness 4341) in paragraph at lines 266--266
+[]\T1/gentium/m/n/12 Lecourt, D., Ed. (1999).  \T1/gentium/m/it/12 Dic-tion-nai
+re d'his-toire et phi-lo-so-phie des sciences\T1/gentium/m/n/12 .  Puf.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
-\T1/lmtt/m/n/12 unige . ch / access / metadata / fc3fad28 -[] 5b90 -[] 42ec -[]
- bea5 -[] 0c6d54cb5452 /
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+[][]$\T1/lmtt/m/n/12 https : / / www . librairiedalloz . fr / livre / 978213054
+4999 -[] dictionnaire -[] d -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+\T1/lmtt/m/n/12 histoire -[] et -[] philosophie -[] des -[] sciences -[] 4e -[]
+ edition -[] dominique -[] lecourt/$[][]\T1/gentium/m/n/12 .
+ []
+
+LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
+(Font)              scaled to size 8.0pt on input line 276.
+
+Underfull \hbox (badness 1603) in paragraph at lines 283--283
+\T1/gentium/m/n/12 Sciences Hu-maines.  [][]$\T1/lmtt/m/n/12 https : / / www . 
+cairn . info / freud -[] et -[] la -[] psychanalyse -[]
  []
 
 
@@ -2012,61 +2030,54 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
+Underfull \hbox (badness 10000) in paragraph at lines 310--310
+\T1/lmtt/m/n/12 unige . ch / access / metadata / fc3fad28 -[] 5b90 -[] 42ec -[]
+ bea5 -[] 0c6d54cb5452 /
+ []
+
 Missing character: There is no ’ ("2019) in font ec-gentiumplus-regular!
 Missing character: There is no ’ ("2019) in font ec-gentiumplus-regular!
 
-Underfull \hbox (badness 4647) in paragraph at lines 331--331
+Underfull \hbox (badness 4647) in paragraph at lines 338--338
 []\T1/gentium/m/n/12 Rey, A. (1998).  \T1/gentium/m/it/12 Dic-tion-naire his-to
 -rique de la langue fran-çaise. Tome 2\T1/gentium/m/n/12 .  Le Ro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 \T1/gentium/m/n/12 bert.  [][]$\T1/lmtt/m/n/12 https : / / www . plouffe . fr /
  simon / Dictionnaires / Le % 20Robert %
  []
 
 LaTeX Font Info:    Font shape `TS1/gentium/m/it' will be
-(Font)              scaled to size 12.0pt on input line 352.
+(Font)              scaled to size 12.0pt on input line 359.
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
 []\T1/gentium/m/n/12 Robertson, S. E. & Jones, K. S. (1976).  Re-le-vance Weigh
 -ting of Search
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
 \T1/gentium/m/n/12 Terms.  \T1/gentium/m/it/12 Jour-nal of the Ame-ri-can So-ci
 ety for In-for-ma-tion science\T1/gentium/m/n/12 , 27(3),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
 \T1/gentium/m/n/12 129--146.  [][]$\T1/lmtt/m/n/12 https : / / asistdl . online
 library . wiley . com / doi /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
 \T1/lmtt/m/n/12 pdf / 10 . 1002 / asi . 4630270302 ? casa _ token = TfyVkMGkDQs
 AAAAA :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
 \T1/lmtt/m/n/12 TCuXWzGHjo31RdxGR9jECRG2rZzqv0K3GOzHF7yAa2NfxtDFqxe -[]
- []
-
-
-Underfull \hbox (badness 6428) in paragraph at lines 374--374
-[]\T1/gentium/m/n/12 Roudinesco, É. & Plon, M. (2023).  \T1/gentium/m/it/12 Dic
--tion-naire de la psy-cha-na-lyse\T1/gentium/m/n/12 .  Fayard.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--374
-[][]$\T1/lmtt/m/n/12 https : / / www . fayard . fr / sciences -[] humaines / di
-ctionnaire -[] de -[] la -[]
  []
 
 
@@ -2078,7 +2089,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29]
-Underfull \hbox (badness 1107) in paragraph at lines 446--446
+Underfull \hbox (badness 6428) in paragraph at lines 381--381
+[]\T1/gentium/m/n/12 Roudinesco, É. & Plon, M. (2023).  \T1/gentium/m/it/12 Dic
+-tion-naire de la psy-cha-na-lyse\T1/gentium/m/n/12 .  Fayard.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
+[][]$\T1/lmtt/m/n/12 https : / / www . fayard . fr / sciences -[] humaines / di
+ctionnaire -[] de -[] la -[]
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 453--453
 \T1/gentium/m/n/12 Ty-pis Ja. Fle-sher, im-pen-sis Jo. Mar-tyn & Ja. Al-les-try
 , apud in-signe Cam-panæ in
  []
@@ -2108,15 +2131,20 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 54F2C6378EDF89247B671BE4C2FD243E;5056.
-Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: F4548DAD6A0B317773AE5489D3383DA2;4362.
+(rerunfilecheck)             Checksum: 5E838E54BCD0117FE92EF945C3590A78;5056.
+
+Package rerunfilecheck Warning: File `_main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `_main.brf':
+(rerunfilecheck)             Before: 7B2FDE75165BC732145D8245BA617545;4408
+(rerunfilecheck)             After:  7FDBC29740FD659E00E058ECB7E9A00E;4410.
  ) 
 Here is how much of TeX's memory you used:
- 33317 strings out of 476683
- 672270 string characters out of 5804046
- 1869018 words of memory out of 5000000
- 52902 multiletter control sequences out of 15000+600000
+ 33308 strings out of 476683
+ 672002 string characters out of 5804046
+ 1873018 words of memory out of 5000000
+ 52893 multiletter control sequences out of 15000+600000
  604515 words of font info for 120 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,17n,142p,2716b,1046s stack positions out of 10000i,1000n,20000p,200000b,200000s

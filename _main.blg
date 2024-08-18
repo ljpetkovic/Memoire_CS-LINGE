@@ -12,45 +12,45 @@ Warning--entry type for "grootendorst2023" isn't style-file defined
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
 Warning--there's a number but no volume in riffaterre1980trace
-You've used 63 entries,
+You've used 64 entries,
             2229 wiz_defined-function locations,
-            928 strings with 19686 characters,
-and the built_in function-call counts, 23484 in all, are:
-= -- 2331
-> -- 868
-< -- 56
-+ -- 294
-- -- 283
-* -- 1806
-:= -- 4171
-add.period$ -- 249
-call.type$ -- 63
-change.case$ -- 431
-chr.to.int$ -- 62
-cite$ -- 66
-duplicate$ -- 960
-empty$ -- 1679
-format.name$ -- 358
-if$ -- 4625
+            935 strings with 19921 characters,
+and the built_in function-call counts, 23781 in all, are:
+= -- 2358
+> -- 876
+< -- 57
++ -- 296
+- -- 285
+* -- 1824
+:= -- 4225
+add.period$ -- 253
+call.type$ -- 64
+change.case$ -- 436
+chr.to.int$ -- 63
+cite$ -- 67
+duplicate$ -- 976
+empty$ -- 1706
+format.name$ -- 361
+if$ -- 4685
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 78
-newline$ -- 374
-num.names$ -- 195
-pop$ -- 400
+missing$ -- 79
+newline$ -- 380
+num.names$ -- 199
+pop$ -- 407
 preamble$ -- 1
-purify$ -- 452
+purify$ -- 458
 quote$ -- 0
-skip$ -- 702
+skip$ -- 712
 stack$ -- 0
-substring$ -- 1404
-swap$ -- 118
+substring$ -- 1416
+swap$ -- 119
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 338
+type$ -- 342
 warning$ -- 3
-while$ -- 186
+while$ -- 188
 width$ -- 0
-write$ -- 916
+write$ -- 930
 (There was 1 error message)

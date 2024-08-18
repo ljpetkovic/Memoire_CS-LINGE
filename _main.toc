@@ -15,6 +15,6 @@
 \contentsline {section}{\numberline {4.2}Extraction des phrases-clés : méthodes statistiques}{14}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{17}{section.4.3}%
 \contentsline {chapter}{Conclusion}{19}{chapter.5}%
-\contentsline {chapter}{Annexe}{20}{chapter*.44}%
-\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{22}{chapter*.46}%
-\contentsline {chapter}{References}{25}{table.caption.49}%
+\contentsline {chapter}{Annexe}{20}{chapter*.42}%
+\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{22}{chapter*.44}%
+\contentsline {chapter}{References}{25}{table.caption.47}%
