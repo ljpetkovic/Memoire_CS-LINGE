@@ -65,11 +65,21 @@ La figure \ref{fig:keybert} illustre la chaîne de traitement appliquée à nos 
 
 \footnotetext{\url{https://maartengr.github.io/KeyBERT/guides/quickstart.html\#installation}}
 
+Une première tentative de génération des phrases-clés les plus pertinentes dans les deux corpus n'a produit que deux termes : \textsc{articulation de} [\textit{sic}] \textsc{épaule} et \textsc{paralysie faciale périphérique}. Par ailleurs, en observant les 15 phrases-clés les plus pertinentes dans le corpus \og Autres \fg{} (figure \ref{fig:keybert_autres}), nous constatons un manque de diversification des résultats et des phrases-clés qui se ressemblent (\textit{la sensibilité tactile}, \textit{sensibilité tactile au}, \textit{la sensibilité tend} etc.). Un autre problème observé était la non-grammaticalité des phrases-clés extraites (\textit{sémi lunaire segment}, \textit{prière le malade} etc.), ce qui nous a incités à tester une approche plus fine, décrite dans la partie \ref{patternrank}.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{img/keybert_autres.png}
+    \caption[Caption for LOF]{}
+    \label{fig:keybert_autres}
+\end{figure}
+
+
+\subsection{Approche \textit{PatternRank}}
+\label{patternrank}
 ~ Unitex
 
 \textsc{nom} + \textsc{adjectif} + \textsc{adjectif}
-
-\subsection{Approche \textit{PatternRank}}
 
 \begin{figure}[!h]
     \centering

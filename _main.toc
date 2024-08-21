@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {4.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{17}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Librairie \texttt {keybert}}{17}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Approche \textit {PatternRank}}{18}{subsection.4.3.2}%
-\contentsline {chapter}{Conclusion}{19}{chapter.5}%
-\contentsline {chapter}{Annexe}{20}{chapter*.42}%
-\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{22}{chapter*.44}%
-\contentsline {chapter}{References}{25}{table.caption.47}%
+\contentsline {chapter}{Conclusion}{20}{chapter.5}%
+\contentsline {chapter}{Annexe}{21}{chapter*.43}%
+\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{23}{chapter*.45}%
+\contentsline {chapter}{References}{26}{table.caption.48}%
