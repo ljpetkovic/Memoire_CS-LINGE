@@ -63,29 +63,38 @@ La figure \ref{fig:keybert} illustre la chaîne de traitement appliquée à nos 
     \label{fig:keybert}
 \end{figure}
 
-\footnotetext{\url{https://maartengr.github.io/KeyBERT/guides/quickstart.html\#installation}}
+\footnotetext{Illustration reprise de \url{https://maartengr.github.io/KeyBERT/guides/quickstart.html\#installation}.}
 
 Une première tentative de génération des phrases-clés les plus pertinentes dans les deux corpus n'a produit que deux termes : \textsc{articulation de} [\textit{sic}] \textsc{épaule} et \textsc{paralysie faciale périphérique}. Par ailleurs, en observant les 15 phrases-clés les plus pertinentes dans le corpus \og Autres \fg{} (figure \ref{fig:keybert_autres}), nous constatons un manque de diversification des résultats et des phrases-clés qui se ressemblent (\textit{la sensibilité tactile}, \textit{sensibilité tactile au}, \textit{la sensibilité tend} etc.). Un autre problème observé était la non-grammaticalité des phrases-clés extraites (\textit{sémi lunaire segment}, \textit{prière le malade} etc.), ce qui nous a incités à tester une approche plus fine, décrite dans la partie \ref{patternrank}.
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{img/keybert_autres.png}
-    \caption[Caption for LOF]{}
+    \caption{Répartition des 15 termes les plus pertinents dans le corpus \og{}Autres\fg{} selon \texttt{keybert}.}
     \label{fig:keybert_autres}
 \end{figure}
 
 
 \subsection{Approche \textit{PatternRank}}
 \label{patternrank}
-~ Unitex
+Cette approche exploite la librairie \texttt{keyphrase-vectorizers} qui offre la possibilité d'extraire les phrases-clés pertinentes et spécifiques à l'aide des balises de parties de discours. Cela nous a paru comme une piste intéressante, étant donné que les termes médicaux (surtout ceux plus pointus) que l'on souhaitait extraire étaient généralement des n-grammes constitués des substantifs, suivis d'un ou plusieurs adjectifs (p. ex. \textit{sclérose latérale amyotrophique}). Voici les étapes de la chaîne de traitement de l'approche \textit{PatternRank} (figure \ref{fig:patternrank}) :
+\begin{enumerate}
+\item les corpus \og Charcot \fg{} et \og Autres \fg{} sont utilisés comme les données d'entrée au format \texttt{.txt} ;
+\item les tokens ont été extraits et étiquetés avec les balises de partie du discours ;
+\item les tokens ont été sélectionnés selon les balises de partie de discours souhaitées et gardés comme les phrases-clés candidates ;
+\item les plongements des documents et de leurs phrases-clés candidates ont été générés par le modèle de langue (en l'occurrence \texttt{flair}) ;
+\item les similarités cosinus ont été calculées entre ces deux types de plongements et les phrases-clés candidates ont été triées par ordre décroissant
+\item les phrases-clés les plus représentatives ont été extraites.
+\end{enumerate}
 
-\textsc{nom} + \textsc{adjectif} + \textsc{adjectif}
+
+
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{img/patternrank_workflow.png}
-    \caption{\textit{Workflow} de la méthode \textit{PatternRank} \citep[p.~2]{schopf2022}}
-    \label{fig:bm25}
+    \caption{\textit{Workflow} de la méthode \textit{PatternRank} \citep[p.~2]{schopf2022}.}
+    \label{fig:patternrank}
 \end{figure}
 
 
