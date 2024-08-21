@@ -48,19 +48,13 @@ En complément de la méthode du calcul de pertinence des termes médicaux fourn
 \subsection{Librairie \texttt{keybert}}
 
 Cette librairie Python permet d'exploiter les plongements de mots (angl. \textit{word embeddings}) du type \textsc{BERT} pour générer des mots/phrases-clés les plus similaires à un document.
-La figure \ref{fig:keybert} illustre la chaîne de traitement appliquée à nos corpus : 
+La figure \ref{fig:keybert} illustre la chaîne de traitement appliquée à nos deux corpus : 
 \begin{enumerate}
-\item les corpus \og Charcot \fg{}Charcot et A
-\item le texte d'entrée a été tokenisé avec la composante \texttt{CountVectorizer} de la librairie \texttt{scikit-learn} ; 
-\item
-\item
+\item les corpus \og Charcot \fg{} et \og Autres \fg{} sont utilisés comme les données d'entrée au format \texttt{.txt} ;
+\item les documents d'entrée ont été tokenisés en phrases-clés candidates avec la fonction \texttt{CountVectorizer} ; 
+\item les plongements des documents et de leurs phrases-clés candidates ont été générés par le modèle de langue \texttt{sentence-transformers} ;
+\item la similarité cosinus a été calculée entre les documents d'entrée et les phrases-clés candidates, où celles avec les scores les plus élevés sont extraites.
 \end{enumerate}
-
-
-~ Unitex
-
-\textsc{nom} + \textsc{adjectif} + \textsc{adjectif}
-
 
 \begin{figure}[!h]
     \centering
@@ -70,6 +64,10 @@ La figure \ref{fig:keybert} illustre la chaîne de traitement appliquée à nos 
 \end{figure}
 
 \footnotetext{\url{https://maartengr.github.io/KeyBERT/guides/quickstart.html\#installation}}
+
+~ Unitex
+
+\textsc{nom} + \textsc{adjectif} + \textsc{adjectif}
 
 \subsection{Approche \textit{PatternRank}}
 
