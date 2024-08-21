@@ -6,7 +6,7 @@
 \contentsline {chapter}{\numberline {2}Pister la circulation du discours médical au prisme du numérique}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Modalités des circulations des savoirs}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}À partir de quel moment un concept devient-il pertinent ?}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Études numériques des circulations culturelles}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Études numériques des circulations culturelles}{10}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Valorisation du fonds Charcot}{11}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Description du fonds Charcot}{11}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Constitution du corpus Charcot}{13}{section.3.2}%
@@ -17,6 +17,6 @@
 \contentsline {subsection}{\numberline {4.3.1}Librairie \texttt {keybert}}{17}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Approche \textit {PatternRank}}{18}{subsection.4.3.2}%
 \contentsline {chapter}{Conclusion}{21}{chapter.5}%
-\contentsline {chapter}{Annexe}{22}{chapter*.44}%
-\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{24}{chapter*.46}%
-\contentsline {chapter}{References}{27}{table.caption.49}%
+\contentsline {chapter}{Annexe}{23}{chapter*.40}%
+\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{25}{chapter*.42}%
+\contentsline {chapter}{References}{28}{table.caption.45}%

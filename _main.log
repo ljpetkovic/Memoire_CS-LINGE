@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 AUG 2024 16:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 AUG 2024 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1332,12 +1332,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--289
  []
 
 (./1_intro.tex
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 2.
-LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 7.79993pt on input line 2.
+LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
@@ -1382,6 +1380,8 @@ LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 7.
 File: img/changement_paradigme.png Graphic file (type bmp)
 <img/changement_paradigme.png>
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
@@ -1547,13 +1547,13 @@ mi-ner à quel mo-ment un concept
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . fabula . o
 rg / actualites / 86846 / circulation -[] des -[] ecrits -[] litteraires -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . crihn . or
 g / nouvelles / 2022 / 12 / 11 / colloque -[] de -[] la -[] transformation -[]
  []
@@ -1763,22 +1763,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 315--315
 
  []
 
-(./5_conclusion.tex) [21
+(./5_conclusion.tex [21
 
 
-]
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 319--319
 
  []
 
-(./6_annexe.tex [22
+(./6_annexe.tex [23
 
 ]
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 24.88pt on input line 2.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 24.88pt on input line 2.
- [23
+ [24
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
@@ -1790,7 +1799,7 @@ Overfull \hbox (261.83383pt too wide) in paragraph at lines 25--55
 [][] 
  []
 
-[24
+[25
 
 ]
 Overfull \hbox (188.10387pt too wide) in paragraph at lines 63--106
@@ -1809,7 +1818,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[25]
+[26]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 129.
@@ -1822,7 +1831,7 @@ l.134 ...{|c|}{\multicolumn{1}{c}{\textit{Terme}}}
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-[26]) (./_main.bbl (./_main.brf)
+[27]) (./_main.bbl (./_main.brf)
 \tf@brf=\write6
 \openout6 = `_main.brf'.
 
@@ -1875,7 +1884,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--61
  journals / volume -[] 2 / issue -[]
  []
 
-[27
+[28
 
 
 
@@ -1973,7 +1982,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \T1/lmtt/m/n/12 org / files / Eric % 20Hobsbawm % 20 -[] %20Age % 20Of % 20Revo
 lution % 201789 % 20 -[]
@@ -1987,7 +1996,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29]
+[30]
 Underfull \hbox (badness 1275) in paragraph at lines 241--241
 \T1/gentium/m/n/12 Grund-be-griffe : (Ba-sic Concepts in His-tory : A His-to-ri
 -cal Dic-tio-nary of Po-li-ti-cal
@@ -2054,7 +2063,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 330--330
 \T1/lmtt/m/n/12 unige . ch / access / metadata / fc3fad28 -[] 5b90 -[] 42ec -[]
  bea5 -[] 0c6d54cb5452 /
@@ -2082,7 +2091,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31]
+[32]
 LaTeX Font Info:    Font shape `TS1/gentium/m/it' will be
 (Font)              scaled to size 12.0pt on input line 388.
 
@@ -2134,7 +2143,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32]
+[33]
 Underfull \hbox (badness 1107) in paragraph at lines 482--482
 \T1/gentium/m/n/12 Ty-pis Ja. Fle-sher, im-pen-sis Jo. Mar-tyn & Ja. Al-les-try
 , apud in-signe Cam-panæ in
@@ -2149,22 +2158,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33] (./_main.aux)
+[34] (./_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 8F1AEB0E72D1A5482C8BC1CB50F7282E;5497.
-Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: BC595A6DB2CF31C8623250C7DCFC9A4D;4784.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `_main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `_main.out':
+(rerunfilecheck)             Before: 8F1AEB0E72D1A5482C8BC1CB50F7282E;5497
+(rerunfilecheck)             After:  BF6F8FC4096D8100D7B11199DD16EB61;5497.
+
+Package rerunfilecheck Warning: File `_main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `_main.brf':
+(rerunfilecheck)             Before: 88DBF15B64FCC33650FA44B158676CC6;4787
+(rerunfilecheck)             After:  572CAB323DF40D0DC80A8C24611A4C71;4779.
  ) 
 Here is how much of TeX's memory you used:
- 33378 strings out of 476683
- 673569 string characters out of 5804046
- 1865018 words of memory out of 5000000
- 52960 multiletter control sequences out of 15000+600000
+ 33372 strings out of 476683
+ 673367 string characters out of 5804046
+ 1866018 words of memory out of 5000000
+ 52954 multiletter control sequences out of 15000+600000
  620641 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,17n,142p,2716b,1046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.pdf (36 pages).
+Output written on _main.pdf (37 pages).
