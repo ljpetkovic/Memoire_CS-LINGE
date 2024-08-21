@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 AUG 2024 17:28
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 AUG 2024 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1380,8 +1380,6 @@ LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 7.
 File: img/changement_paradigme.png Graphic file (type bmp)
 <img/changement_paradigme.png>
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
@@ -1391,17 +1389,10 @@ LaTeX Font Info:    Font shape `T1/gentium/b/sc' will be
  [3
 
 ]
-
-Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
-environment!.
-
-
-Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
-environment!.
-
 LaTeX Font Info:    Trying to load font information for TU+gentium on input lin
 e 45.
 LaTeX Font Info:    No file TUgentium.fd. on input line 45.
+
 
 LaTeX Font Warning: Font shape `TU/gentium/m/n' undefined
 (Font)              using `TU/lmr/m/n' instead on input line 45.
@@ -1520,16 +1511,6 @@ ion pra-tique des connais-sances ;
 Overfull \hbox (3.21371pt too wide) in paragraph at lines 26--27
 []\T1/gentium/m/n/12 glorification de la cir-cu-la-tion comme por-teuse de va-l
 eurs \T1/gentium/m/it/12 a priori \T1/gentium/m/n/12 po-si-tives : confron-
- []
-
-
-Overfull \hbox (1.47531pt too wide) in paragraph at lines 44--44
-[][][]\T1/gentium/m/n/8 Begriffsgeschi- 
- []
-
-
-Overfull \hbox (1.47531pt too wide) in paragraph at lines 44--44
-[][][]\T1/gentium/m/n/8 Begriffsgeschi- 
  []
 
 
@@ -2171,23 +2152,23 @@ Package rerunfilecheck Warning: File `_main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `_main.out':
-(rerunfilecheck)             Before: 8F1AEB0E72D1A5482C8BC1CB50F7282E;5497
-(rerunfilecheck)             After:  BF6F8FC4096D8100D7B11199DD16EB61;5497.
+(rerunfilecheck)             Before: D89BE0558F3B3E8B474CA2ADE0C435E4;5497
+(rerunfilecheck)             After:  FC2041EC7FBAD0760F1A9A7A67EE12B3;5497.
 
 Package rerunfilecheck Warning: File `_main.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `_main.brf':
-(rerunfilecheck)             Before: 88DBF15B64FCC33650FA44B158676CC6;4787
-(rerunfilecheck)             After:  572CAB323DF40D0DC80A8C24611A4C71;4779.
+(rerunfilecheck)             Before: 268D299513EEE4D592B2A62F66731E24;4832
+(rerunfilecheck)             After:  A1E0536F4A73B444A3057411164D9AEE;4831.
  ) 
 Here is how much of TeX's memory you used:
- 33372 strings out of 476683
- 673367 string characters out of 5804046
- 1866018 words of memory out of 5000000
- 52954 multiletter control sequences out of 15000+600000
+ 33066 strings out of 476683
+ 666187 string characters out of 5804046
+ 1864018 words of memory out of 5000000
+ 52648 multiletter control sequences out of 15000+600000
  620641 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,17n,142p,2716b,1046s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,142p,2716b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on _main.pdf (37 pages).
