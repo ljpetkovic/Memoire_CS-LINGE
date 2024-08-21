@@ -80,14 +80,12 @@ Une première tentative de génération des phrases-clés les plus pertinentes d
 Cette approche exploite la librairie \texttt{keyphrase-vectorizers} qui offre la possibilité d'extraire les phrases-clés pertinentes et spécifiques à l'aide des balises de parties de discours. Cela nous a paru comme une piste intéressante, étant donné que les termes médicaux (surtout ceux plus pointus) que l'on souhaitait extraire étaient généralement des n-grammes constitués des substantifs, suivis d'un ou plusieurs adjectifs (p. ex. \textit{sclérose latérale amyotrophique}). Voici les étapes de la chaîne de traitement de l'approche \textit{PatternRank} (figure \ref{fig:patternrank}) :
 \begin{enumerate}
 \item les corpus \og Charcot \fg{} et \og Autres \fg{} sont utilisés comme les données d'entrée au format \texttt{.txt} ;
-\item les tokens ont été extraits et étiquetés avec les balises de partie du discours ;
+\item les tokens ont été extraits et étiquetés avec les balises de partie du discours et les expressions régulières \texttt{<N.*>+<ADJ.*>*} ;
 \item les tokens ont été sélectionnés selon les balises de partie de discours souhaitées et gardés comme les phrases-clés candidates ;
 \item les plongements des documents et de leurs phrases-clés candidates ont été générés par le modèle de langue (en l'occurrence \texttt{flair}) ;
 \item les similarités cosinus ont été calculées entre ces deux types de plongements et les phrases-clés candidates ont été triées par ordre décroissant
 \item les phrases-clés les plus représentatives ont été extraites.
 \end{enumerate}
-
-
 
 
 \begin{figure}[!h]
@@ -97,5 +95,11 @@ Cette approche exploite la librairie \texttt{keyphrase-vectorizers} qui offre la
     \label{fig:patternrank}
 \end{figure}
 
+La figure \ref{fig:patternrank_partage} nous informe sur les 15 termes les plus pertinents et fréquents, extraits avec la librairie \texttt{keyphrase-vectorizers}, que l'on retrouve dans les deux corpus. Malgré certains tokens tronqués, très probablement en raison d'un \textsc{OCR} imparfait (\textit{ments} $\rightarrow$ \textit{mouvements}, \textit{decins} $\rightarrow$ \textit{médecins} etc.), nous observons une diversification des résultats. Après cela, il reste la question de mieux comprendre le rôle des phrases-clés extraites dans les écrits de l'entourage de Charcot et/ou si elles sont vraiment significatives ou pas. 
 
-
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{img/termes_partages.png}
+    \caption{Les 15 termes les plus fréquents partagés par les deux corpus selon \texttt{keyphrase-vectorizers}.}
+    \label{fig:patternrank_partage}
+\end{figure}
