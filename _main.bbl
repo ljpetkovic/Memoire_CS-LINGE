@@ -1,5 +1,13 @@
 \begin{thebibliography}{}
 
+\bibitem[Alrahabi, 2021]{alrahabi2021ariane}
+Alrahabi, M. (2021).
+\newblock Ariane: dispositif de fouille et de lecture synth{\'e}tique de
+  textes.
+\newblock In {\em DigitAl Humanities and cuLtural herItAge: data and knowledge
+  management and analysis (Atelier Dahlia)}.
+\newblock \url{https://hal.science/hal-03167271}.
+
 \bibitem[Alrahabi, 2022]{alrahabi2022obvie}
 Alrahabi, M. (2022).
 \newblock Obvie: interface web pour la fouille et la comparaison de textes.
@@ -97,6 +105,12 @@ Charcot, J.~M. (1892).
 \newblock
   \url{https://patrimoine.sorbonne-universite.fr/viewer/3468/?offset=1\#page=2&viewer=picture&o=&n=0&q=}.
 
+\bibitem[Charcot, 1897]{charcot1897foi}
+Charcot, J.-M. (1897).
+\newblock {\em La foi qui gu{\'e}rit}.
+\newblock F. Alcan (Paris).
+\newblock \url{https://gallica.bnf.fr/ark:/12148/bpt6k68008w}.
+
 \bibitem[Christin, 2011]{christin2011dictionnaire}
 Christin, O. (2011).
 \newblock {\em Dictionnaire des concepts nomades en sciences humaines}.
@@ -108,15 +122,6 @@ Christin, O. (2011).
 Devlin, J., Chang, M.-W., Lee, K., \& Toutanova, K. (2019).
 \newblock Bert: Pre-training of {D}eep {B}idirectional {T}ransformers for
   {L}anguage {U}nderstanding.
-
-\bibitem[\foreignlanguage{russian}{Лихачёв, Д. C.}, 1997]{lihachev1997}
-\foreignlanguage{russian}{Лихачёв, Д. C.} (1997).
-\newblock \foreignlanguage{russian}{Концептосфера русского
-  языка}.
-\newblock {\em \foreignlanguage{russian}{Русская словесность:
-  Антология}}.
-\newblock
-  \url{https://www.lihachev.ru/pic/site/files/fulltext/ocherk_po_philos/13.pdf}.
 
 \bibitem[\foreignlanguage{russian}{Степанов, Ю. С.},
   2007]{stepanov2007}

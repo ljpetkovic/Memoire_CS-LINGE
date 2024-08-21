@@ -3,56 +3,56 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: _main.aux
 The style file: apalike-etal-in-italics.bst
 Database file #1: bibliographie.bib
-I was expecting a `,' or a `}'---line 444 of file bibliographie.bib
+I was expecting a `,' or a `}'---line 437 of file bibliographie.bib
  :   sortname = {Stepanov2007} 
  :                             % Add this field for sorting
 I'm skipping whatever remains of this entry
 Warning--entry type for "grootendorst2023" isn't style-file defined
---line 536 of file bibliographie.bib
+--line 529 of file bibliographie.bib
 Warning--I'm ignoring RENNESSON202015's extra "note" field
---line 664 of file bibliographie.bib
+--line 657 of file bibliographie.bib
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
 Warning--there's a number but no volume in riffaterre1980trace
-You've used 67 entries,
+You've used 68 entries,
             2229 wiz_defined-function locations,
-            958 strings with 20980 characters,
-and the built_in function-call counts, 25204 in all, are:
-= -- 2488
-> -- 970
-< -- 57
-+ -- 330
-- -- 319
-* -- 1961
-:= -- 4487
-add.period$ -- 265
-call.type$ -- 67
-change.case$ -- 468
-chr.to.int$ -- 66
-cite$ -- 70
-duplicate$ -- 1017
-empty$ -- 1783
-format.name$ -- 398
-if$ -- 4950
+            962 strings with 21025 characters,
+and the built_in function-call counts, 25520 in all, are:
+= -- 2517
+> -- 977
+< -- 58
++ -- 332
+- -- 321
+* -- 1979
+:= -- 4541
+add.period$ -- 269
+call.type$ -- 68
+change.case$ -- 473
+chr.to.int$ -- 67
+cite$ -- 71
+duplicate$ -- 1036
+empty$ -- 1815
+format.name$ -- 401
+if$ -- 5017
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 82
-newline$ -- 398
-num.names$ -- 208
-pop$ -- 430
+missing$ -- 84
+newline$ -- 404
+num.names$ -- 211
+pop$ -- 442
 preamble$ -- 1
-purify$ -- 490
+purify$ -- 496
 quote$ -- 0
-skip$ -- 743
+skip$ -- 751
 stack$ -- 0
-substring$ -- 1485
-swap$ -- 122
+substring$ -- 1497
+swap$ -- 123
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 360
+type$ -- 364
 warning$ -- 3
-while$ -- 196
+while$ -- 198
 width$ -- 0
-write$ -- 975
+write$ -- 989
 (There was 1 error message)
