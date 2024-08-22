@@ -1,8 +1,8 @@
 \babel@toc {french}{}\relax 
 \contentsline {chapter}{Introduction}{1}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}L'erreur comme source de la connaissance scientifique}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Jean-Martin Charcot : un médecin polymathe à l'aube de la neurologie moderne}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.1}La rupture comme source du progrès scientifique}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}{5}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Pister la circulation du discours médical au prisme du numérique}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Modalités des circulations des savoirs}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}À partir de quel moment un concept devient-il pertinent ?}{8}{section.2.2}%
@@ -18,5 +18,5 @@
 \contentsline {subsection}{\numberline {4.3.2}Approche \textit {PatternRank}}{18}{subsection.4.3.2}%
 \contentsline {chapter}{Conclusion}{21}{chapter.5}%
 \contentsline {chapter}{Annexe}{23}{chapter*.14}%
-\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{25}{chapter*.16}%
+\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{25}{appendix*.16}%
 \contentsline {chapter}{References}{28}{table.caption.19}%

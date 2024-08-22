@@ -10,13 +10,13 @@ I'm skipping whatever remains of this entry
 Warning--entry type for "grootendorst2023" isn't style-file defined
 --line 529 of file bibliographie.bib
 Warning--I'm ignoring RENNESSON202015's extra "note" field
---line 657 of file bibliographie.bib
+--line 658 of file bibliographie.bib
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
 Warning--there's a number but no volume in riffaterre1980trace
 You've used 70 entries,
             2229 wiz_defined-function locations,
-            973 strings with 21675 characters,
+            974 strings with 21740 characters,
 and the built_in function-call counts, 26413 in all, are:
 = -- 2615
 > -- 997
