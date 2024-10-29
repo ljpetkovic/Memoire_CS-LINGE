@@ -8,8 +8,7 @@ Le fonds patrimonial de Jean-Martin Charcot est conservé à la Bibliothèque de
 \end{itemize}
 \medskip
 Dans un souci de préservation d'ouvrages originaux et de valorisation de collections ayant un caractère iconographique notable, une partie de ce fonds a été numérisée. Ces archives numérisées sont disponibles sur le portail numérique
-SorbonNum\footnote{anc. Bibliothèque numérique patrimoniale de
-l'université Pierre et Marie Curie, \url{https://patrimoine.sorbonne-universite.fr/collection/Fonds-Charcot}}, porte d'entrée unique vers les collections scientifiques patrimoniales et numériques de Sorbonne Université, ainsi que sur Gallica, bibliothèque numérique de la Bibliothèque nationale de France (\textsc{BnF})\footnote{\url{https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=\%28gallica\%20all\%20\%22Charcot\%2C\%20Jean-Martin\%22\%29&lang=fr&suggest=0}.}.
+SorbonNum\footnote{anc. Jubilothèque, \url{https://patrimoine.sorbonne-universite.fr/collection/Fonds-Charcot}}, porte d'entrée unique vers les collections scientifiques patrimoniales et numériques de Sorbonne Université, ainsi que sur Gallica, bibliothèque numérique de la Bibliothèque nationale de France (\textsc{BnF})\footnote{\url{https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=\%28gallica\%20all\%20\%22Charcot\%2C\%20Jean-Martin\%22\%29&lang=fr&suggest=0}.}.
 
 Le fonds numérisé a été décrit et divisé par la BSU en quatre grandes typologies de documents :
 \begin{enumerate}
@@ -28,9 +27,9 @@ Le fonds numérisé a été décrit et divisé par la BSU en quatre grandes typo
 \item \textbf{\textit{Les Recherches cliniques et thérapeutiques sur l'épilepsie, l'hystérie et l'idiotie (1872 -1903)}} de Bourneville. Y est retracée toute l'activité du Service des Enfants Idiots, à la Salpêtrière puis à Bicêtre, par le biais des compte-rendu illustrés de photographies et rédigés par Bourneville ;
 \item \textbf{\textit{Revue de l'Hypnotisme (1887-1910)}} : périodique consacré à l'hypnotisme que Charcot a réhabilité, publiant les principaux articles théoriques sur cette discipline ;
 \item \textbf{\textit{Journal du magnétisme (1845-1861)}} : la collection reflète les recherches sur le magnétisme, renouvelées au milieu du XIX\ieme{} siècle ; 
-\item \textbf{\textit{Revue photographique des hôpitaux de Paris (1869-1872)}}. Première revue exposant les applications de la photographie à la médecine, notamment la médecine hospitalière, à travers les études menées à l'Hôpital Saint Louis, et à la Salpêtrière ;
-\item \textbf{\textit{Iconographie Photographique de la Salpêtrière (1875-1879)}}. La collection présente les observations de patientes examinées à la Salpêtrière, accompagnées de photographies d'Albert Londe, présentant les divers stades de la crise d'hystérie ;
-\item \textbf{\textit{Nouvelle Iconographie de la Salpêtrière (1888-1918)}}. La revue est fondée sous la direction de Charcot par Paul Richer, Gilles de la Tourette et Albert Londe, directeur du service photographique. Elle réunit la collection de clichés constituée à la Salpêtrière a pour but la représentation objective des pathologies observées. Elle prend la relève de l'\textit{Iconographie Photographique de la Salpêtrière}. Les articles sont illustrés de photographies, de dessins et de lithographies ;
+\item \textbf{\textit{Revue photographique des hôpitaux de Paris (1869-1872)}}. Première revue exposant les applications de la photographie à la médecine, notamment la médecine hospitalière, à travers les études menées à l'Hôpital Saint-Louis, et à la Salpêtrière ;
+\item \textbf{\textit{Iconographie Photographique de la Salpêtrière (1875-1879)}}. La collection présente les observations de patientes examinées à la Salpêtrière, accompagnées de photographies d'Albert Londe, directeur du service photographique, présentant les divers stades de la crise d'hystérie ;
+\item \textbf{\textit{Nouvelle Iconographie de la Salpêtrière (1888-1918)}}. La revue est fondée sous la direction de Charcot par Paul Richer, Gilles de la Tourette et Albert Londe. Elle réunit la collection de clichés constituée à la Salpêtrière a pour but la représentation objective des pathologies observées. Elle prend la relève de l'\textit{Iconographie Photographique de la Salpêtrière}. Les articles sont illustrés de photographies, de dessins et de lithographies ;
 \item \textbf{\textit{Archives de neurologie (1880-1907)}}. Sous-titrée \og{}Revue trimestrielle des maladies nerveuses et mentales\fg{}, les Archives de neurologie sont publiées sous la direction de Charcot par Bourneville. La revue édite, groupe, catégorise et compare la masse des travaux de pathologie nerveuse. Les \textit{Archives de neurologie} sont devenues bisannuelles en 1881.
 \end{itemize}
 \item \underline{Ouvrages de la bibliothèque de Charcot}
@@ -43,27 +42,35 @@ Le fonds numérisé a été décrit et divisé par la BSU en quatre grandes typo
 \section{Constitution du corpus Charcot}
 Le corpus de travail est constitué de 201 documents OCRisés (sans post-correction), fournis au format \textsc{XML} par la \textsc{BSU}. Nous avons procédé, dans un premier temps, à une restructuration des textes en \textsc{XML-TEI}\footnote{Originalement, ces fichiers ne contenaient que les balises \texttt{<doc>}, \texttt{<id\_doc>} et \texttt{<pages>}.} à l'aide de l'outil \textsc{Teinte}\footnote{\url{https://github.com/OBVIL/teinte\_obtic}}, afin de permettre la fouille avancée du corpus Charcot à travers des outils développés au sein de l'équipe-projet \textsc{ObTIC}. D'une part, le moteur de recherche \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/}. Pour d'amples informations sur le fonctionnement de cet outil, \textit{cf}. \citet{alrahabi2022obvie}.} permet de repérer des textes similaires par ordre de pertinence à partir des termes en commun. D'autre part, l'algorithme \textsc{TextPair} génère une liste de passages similaires, c'est-à-dire les séquences de mots qui se chevauchent (n-grammes de mots) pour chaque texte, en comparant ensuite ces résultats avec ceux de séquences dans d'autres textes\footnote{\url{https://artfl-project.uchicago.edu/text-pair.}}.
 
-Afin de mesurer l'impact de Charcot sur son entourage et d'analyser la circulation de concepts véhiculés dans le corpus, nous avons commencé par séparer les documents rédigés par Charcot de ceux rédigés par ses co-auteurs (p. ex. Bourneville) ou les auteurs thématiquement proches de lui (p. ex. de la Tourette). Nous avons obtenu respectivement 68 (corpus \og{}Charcot\fg{}) et 133 (corpus \og{}Autres\fg{}) documents, comme présenté dans le tableau \ref{tab:corpus}. 
+Afin de mesurer l'impact de Charcot sur son entourage et d'analyser la circulation de concepts véhiculés dans le corpus, nous avons commencé par séparer les documents rédigés par Charcot de ceux rédigés par ses co-auteurs (p. ex. Bourneville) ou les auteurs thématiquement proches de lui (p. ex. son élève Gilles de la Tourette). Nous avons obtenu respectivement 68 (corpus \og{}Charcot\fg{}) et 133 (corpus \og{}Autres\fg{}) documents, comme présenté dans le tableau \ref{tab:corpus}. Les deux corpus issus du fonds Charcot sont librement disponibles et interrogeables sur les deux plateformes \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/charcot/?view=corpus}} et \textsc{TextPair}\footnote{\url{https://anomander.uchicago.edu/}}.
+
+
+
+
 
 \begin{table}[!ht]
     \centering
-    \begin{tabular}{|c|r|r|}
-    \hline\hline
-    \rowcolor{yellow!30}
-    \small
-       Corpus & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}\small Nombre \vspace{-0.20cm} \\ \small de documents\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}\small Nombre de tokens\end{tabular}} \\
-       \hline
-      \begin{tabular}[c]{@{}c@{}}\textrm{\small Charcot}\\ \scriptsize{textes rédigés par Charcot}\end{tabular}  & \small 68 & \small 12 190 649 (38,12\%) \\
-       \hline
-       \begin{tabular}[c]{@{}c@{}}\textrm{\small Autres}\\\vspace{-0.15cm} \scriptsize{textes rédigés par les membres} \vspace{-0.15cm} \\ \scriptsize{de son réseau scientifique}\end{tabular}    & \small 133 & \small 19 788 830 (61,88\%) \\
-       \hline\hline
-       \textbf{TOTAL} & \textbf{201} & \textbf{31 979 479} (100\%)\\
-       \hline\hline
+    \begin{tabular}{|c|c|>{\centering\arraybackslash}p{3.5cm}|}
+    \hline
+    \multicolumn{1}{|c|}{\cellcolor{yellow!30} \small Corpus} & 
+    \multicolumn{1}{c|}{\cellcolor{yellow!30} \small Nb de documents} & 
+    \multicolumn{1}{c|}{\cellcolor{yellow!30} \small Nb de tokens} \\
+    \hline
+    \begin{tabular}[c]{@{}c@{}}\textrm{\small Charcot}\\ \scriptsize{textes rédigés par Charcot}\end{tabular}  
+    & \small 68 
+    & \small 12 190 649 (38,12 \%) \\
+    \hline
+    \begin{tabular}[c]{@{}c@{}}\textrm{\small Autres}\\\vspace{-0.10cm} \scriptsize{textes rédigés par les membres} \vspace{-0.15cm} \\ \scriptsize{de son réseau scientifique}\end{tabular}    
+    & \small 133 
+    & \small 19 788 830 (61,88 \%) \\
+    \hline
+    \textbf{TOTAL} 
+    & \textbf{201} 
+    & \textbf{31 979 479} (100 \%)\\
+    \hline
     \end{tabular}
-    \caption{Répartition du fonds Charcot selon les auteurs.
-%    \footnote{\tiny{\url{https://patrimoine.sorbonne-universite.fr/collection/Fonds-Charcot}}}
-}
- \label{tab:corpus}
+    \caption{Répartition du fonds Charcot selon les auteurs.}
+    \label{tab:corpus}
 \end{table}
 
-Les deux corpus issus du fonds Charcot sont librement disponibles et interrogeables sur les deux plateformes \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/charcot/?view=corpus}} et \textsc{TextPair}\footnote{\url{https://anomander.uchicago.edu/}}.
+

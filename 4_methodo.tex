@@ -5,18 +5,18 @@ Une première exploration du corpus Charcot à travers l'application OBVIE nous 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=1\textwidth]{img/bulbe_rachidien_mini.png}
-    \caption{Distribution des fréquences des tokens avec la frise chronologique pour ceux constituant l'expression \textit{bulbe rachidien} (issus du corpus \og{}Charcot\fg{} et du corpus \og{}Autres\fg{}) dans le logiciel OBVIE.
+    \caption{Distribution des fréquences des tokens avec la frise chronologique pour ceux constituant l'expression \og{}bulbe rachidien\fg{} (issus du corpus \og{}Charcot\fg{} et du corpus \og{}Autres\fg{}) dans le logiciel OBVIE.
     % Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
     }
     \label{fig:bulbe}
 \end{figure}
 
-Concernant l'alignement des séquences similaires aux deux corpus, \textsc{TextPair} nous a permis, par une lecture attentive, de faire des comparaisons entre les textes et de rechercher des termes au sein des passages similaires, malgré le nombre de résultats assez conséquent (\textit{cf}. la figure \ref{fig:textpair}). En raison de sa capacité de détecter les passages similaires, notamment les citations directes, les plagiats ou les réemplois, ce logiciel, ainsi qu'un autre logiciel de détection de plagiat, peuvent nous servir de \textit{baseline} pour comparer ses résultats avec ceux proposés dans la partie \ref{methodo_stat}.
+Concernant l'alignement des séquences similaires aux deux corpus, \textsc{TextPair} nous a permis, par une lecture attentive, de faire des comparaisons entre les textes et de rechercher des termes au sein des passages similaires, malgré le nombre de résultats assez conséquent (\textit{cf}. la figure \ref{fig:textpair}). En raison de sa capacité de détecter les passages similaires, notamment les citations directes, les plagiats ou les réemplois, ce logiciel, ainsi qu'un autre logiciel de détection de plagiat, peuvent nous servir de \textit{baseline} pour comparer leurs résultats avec ceux proposés dans la partie \ref{methodo_stat}.
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=1\textwidth]{img/textpair.png}
-    \caption{Alignement et comparaison des textes de Charcot à celui de Georges Gilles de la Tourette (le seul résultat) en lançant la requête \textit{sclérose latérale amyotrophique}.}
+    \caption{Alignement et comparaison d'un texte de Charcot à celui de Georges Gilles de la Tourette (le seul résultat) en lançant la requête \textit{sclérose latérale amyotrophique}.}
     \label{fig:textpair}
 \end{figure}
 \section{Extraction des phrases-clés : méthodes statistiques}
@@ -25,12 +25,12 @@ Afin de surmonter les limites rencontrées avec ces deux outils, nous avons prop
 \begin{itemize}
 \item \textsc{TF-IDF} \citep{robertson1976relevance} est une méthode qui permet d'évaluer l'importance d'un terme contenu dans un document relativement à un corpus plus large en récompensant la fréquence des termes, sans tenir compte des variations de longueur du document ;
 \item \textsc{BM25} est une fonction de classement qui classe un ensemble de documents en fonction des termes de requête apparaissant dans chaque document, quelle que soit l'interrelation entre les termes de requête au sein d'un document (par exemple, leur proximité relative). Il s'agit d'une tentative d'amélioration de \textsc{TF-IDF}, notamment pour prendre en compte divers facteurs tels que la longueur du document et les problèmes engendrés par la possible saturation des termes \citep[p.~355]{robertson2009probabilistic} ;
-\item \textsc{BERT} \citep{devlin2019} est un modèle pré-entraîné qui utilise l'apprentissage non-supervisé sur de grandes quantités de données textuelles pour apprendre des représentations de mots et de phrases, et comprendre le contexte et la sémantique. Il est basé sur l'architecture des \textit{transformeurs}, qui est un type de réseau de neurones utilisé pour le traitement du langage naturel.
+\item \textsc{BERT} \citep{devlin2019} est un modèle pré-entraîné qui utilise l'apprentissage profond non-supervisé sur de grandes quantités de données textuelles pour apprendre des représentations de mots et de phrases, et comprendre le contexte et la sémantique. Il est basé sur l'architecture des \textit{transformeurs}, qui est un type de grands modèles de langue utilisé pour le \textsc{TAL}.
 \end{itemize}
 
 La liste des concepts retenus pour l'étude est composée de termes ou expressions popularisés par Charcot, comme \textit{hystérie}, \textit{sclérose latérale} etc. \citep[p.~1102]{camargo2024} \footnote{\textit{Cf.} la liste exhaustive des termes et des expressions popularisés par Charcot en annexe.}. Pour chaque entrée, nous avons pris en compte les formes du singulier et du pluriel obtenues grâce à des expressions régulières. La liste est  produite de façon supervisée et provient du croisement entre la liste des termes obtenus avec OBVIE et l'index d'une édition des \oe{}uvres complètes de \cite[pp.~493--507]{charcot1892oeuvres}, dont nous avons retiré les termes génériques (\textit{os}, \textit{cerveau}, etc.).
 
-Comme nous pouvons l'observer sur la figure \ref{fig:bm25}, la mesure \textsc{BM25} révèle une intensification du lexique de Charcot dans le corpus \og{}Autres\fg{}. Autrement dit, tous les termes évalués sont identifiés comme plus signifiants dans le discours des \og{}Autres\fg{} que dans celui de Charcot, les scores étant plus élevés pour 14 termes (sur 14 évalués) utilisés par le réseau de Charcot. D'ailleurs, d'après le tableau \ref{tab:calculs_stat} (en annexe), c'est la seule mesure dont les valeurs témoignent clairement d'un lexique partagé entre Charcot et ses successeurs et collaborateurs, \textit{a contrario} des deux autres mesures, où le rapport en question est inversé (la grande majorité des termes étant plus pertinente dans le discours de Charcot, et son impact étant donc moins accentué). Concrètement, les termes les plus pertinents semblent être \textit{sclérose en plaque disséminées} (score 0,83), \textit{paralysie rhumatismale} (0,68), \textit{atrophie progressive} (0,53) et \textit{arthrite déformante} (0,50).
+Comme nous pouvons l'observer sur la figure \ref{fig:bm25}, la mesure \textsc{BM25} révèle une intensification du lexique de Charcot dans le corpus \og{}Autres\fg{}. Plus précisément, tous les termes évalués sont identifiés comme plus signifiants dans le discours des \og{}Autres\fg{} que dans celui de Charcot, les scores étant plus élevés pour 14 termes (sur 14 évalués) utilisés par le réseau de Charcot. D'ailleurs, d'après le tableau  \ref{tab:calculs_stat} (en annexe), c'est la seule mesure dont les valeurs témoignent clairement d'un lexique partagé entre Charcot et ses successeurs et collaborateurs, \textit{a contrario} des deux autres mesures, où le rapport en question est inversé (la grande majorité des termes étant plus pertinente dans le discours de Charcot, et son impact étant donc moins accentué). Concrètement, les termes les plus pertinents semblent être \textit{sclérose en plaque disséminées} (score 0,83), \textit{paralysie rhumatismale} (0,68), \textit{atrophie progressive} (0,53) et \textit{arthrite déformante} (0,50).
 
 \begin{figure}[!h]
     \centering
@@ -39,11 +39,11 @@ Comme nous pouvons l'observer sur la figure \ref{fig:bm25}, la mesure \textsc{BM
     \label{fig:bm25}
 \end{figure}
 
-D'autre part, nous avons utilisé \textsc{BERT} pour mesurer le poids des termes dans les deux corpus. Bien que ce type de modèle ne fournisse pas directement de poids pour les mots, nous pourrions cependant en extraire des informations utiles pour estimer l'importance ou le poids des mots dans les textes. Différentes approches sont généralement utilisées pour obtenir une représentation de l'importance des mots, en exploitant les informations des plongements lexicaux et des mécanismes d'attention \citep{vaswani2023}. Pour ce travail en cours, nous avons utilisé le modèle \texttt{bert-base-multilingual-cased}. Les premiers résultats obtenus se trouvent dans le tableau \ref{tab:calculs_stat} et restent à améliorer. Cependant, nous avons observé que les termes les plus pertinents pour le discours de Charcot étaient ceux qui désignent les noms des différentes pathologies (\textit{diplopie}, \textit{myélite partielle}, \textit{état de mal épileptique}, \textit{paralysie labio-glosso-laryngée} etc.), contrairement à d'autres notions plus abstraites (\textit{vicieuses}, \textit{délire}, \textit{miracle}) qui sont prédominantes dans le corpus
+D'autre part, nous avons utilisé \textsc{BERT} pour mesurer le poids des termes dans les deux corpus. Bien que ce type de modèle ne fournisse pas directement de poids pour les mots, nous pourrions en extraire des informations utiles pour estimer l'importance ou le poids des mots dans les textes. Différentes approches sont utilisées pour obtenir une représentation de l'importance des mots, en exploitant des plongements lexicaux et des mécanismes d'attention \citep{vaswani2023}. Pour ce travail en cours, nous avons utilisé le modèle \texttt{bert-base-multilingual-cased}. Les premiers résultats obtenus se trouvent dans le tableau \ref{tab:calculs_stat} et restent à améliorer. Cependant, nous avons observé que les termes les plus pertinents pour le discours de Charcot étaient ceux qui désignent les noms des différentes pathologies (\textit{diplopie}, \textit{myélite partielle}, \textit{état de mal épileptique}, \textit{paralysie labio-glosso-laryngée} etc.), contrairement à d'autres notions plus abstraites (\textit{vicieuses}, \textit{délire}, \textit{miracle}) qui sont prédominantes dans le corpus
 \og{}Autres\fg{} (termes non renseignés dans le tableau en question). La présence de ce dernier type de notion n'est pas étonnant, étant donné que Charcot aborde la question des guérisons miraculeuses dans ses recherches\footnote{Voir notamment son \oe{}uvre \textit{La foi qui guérit} \citep{charcot1897foi}.}. 
 
 \section{Extraction des phrases-clés : méthode à base d'apprentissage profond}
-En complément de la méthode du calcul de pertinence des termes médicaux fournis de manière supervisée (partie \ref{methodo_stat}), nous exposons ici des résultats de l'approche non-supervisée pour extraire des mots/phrases-clés  pertinents à partir de nos deux corpus. L'objectif de cette approche est de détecter les termes communs entre les deux corpus et de montrer la répartition des termes les plus pertinents dans le réseau de Charcot. Deux algorithmes librement disponibles sont présentés ici pour illustrer cette dernière approche : \texttt{keybert} \citep{grootendorst2023}\footnote{\url{https://maartengr.github.io/KeyBERT/}} et \texttt{keyphrase-vectorizers}\footnote{\url{https://pypi.org/project/keyphrase-vectorizers/}}.  
+En complément de la méthode du calcul de pertinence des termes médicaux fournis de manière supervisée (partie \ref{methodo_stat}), nous exposons ici des résultats de l'approche non-supervisée pour extraire des mots/phrases-clés  pertinents à partir de nos deux corpus\footnote{\textit{Cf.} le dépôt GitHub \url{https://github.com/ljpetkovic/Charcot\_KeyBERT\_Keyphrase-Vectorizers/}.}. L'objectif de cette approche est de détecter les termes communs entre les deux corpus et de montrer la répartition des termes les plus pertinents dans le réseau de Charcot. Deux algorithmes librement disponibles sont présentés ici pour illustrer cette dernière approche : \texttt{keybert} \citep{grootendorst2023}\footnote{\url{https://maartengr.github.io/KeyBERT/}} et \texttt{keyphrase-vectorizers}\footnote{\url{https://pypi.org/project/keyphrase-vectorizers/}}.  
 
 \subsection{Librairie \texttt{keybert}}
 
@@ -70,7 +70,7 @@ Une première tentative de génération des phrases-clés les plus pertinentes d
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{img/keybert_autres.png}
-    \caption{Répartition des 15 termes les plus pertinents dans le corpus \og{}Autres\fg{} selon \texttt{keybert}.}
+    \caption{15 termes les plus pertinents dans le corpus \og{}Autres\fg{} selon \texttt{keybert}.}
     \label{fig:keybert_autres}
 \end{figure}
 
@@ -82,11 +82,10 @@ Cette approche exploite la librairie \texttt{keyphrase-vectorizers} qui offre la
 \item les corpus \og Charcot \fg{} et \og Autres \fg{} sont utilisés comme les données d'entrée au format \texttt{.txt} ;
 \item les tokens ont été extraits et étiquetés avec les balises de partie du discours et les expressions régulières \texttt{<N.*>+<ADJ.*>*} (sans utiliser le paramètre \texttt{use\_mmr}) ;
 \item les tokens ont été sélectionnés selon les balises de partie de discours souhaitées et gardés comme les phrases-clés candidates ;
-\item les plongements des documents et de leurs phrases-clés candidates ont été générés par le modèle de langue (en l'occurrence \texttt{flair}) ;
-\item les similarités cosinus ont été calculées entre ces deux types de plongements et les phrases-clés candidates ont été triées par ordre décroissant
+\item les plongements des documents et de leurs phrases-clés candidates ont été générés par le modèle de langue (en l'occurrence \texttt{flair}\footnote{\url{https://github.com/flairNLP/flair}}) ;
+\item les similarités cosinus ont été calculées entre ces deux types de plongements, et les phrases-clés candidates ont été triées par ordre décroissant ;
 \item les phrases-clés les plus représentatives ont été extraites.
 \end{enumerate}
-
 
 \begin{figure}[!h]
     \centering
@@ -100,6 +99,6 @@ La figure \ref{fig:patternrank_partage} nous informe sur les 15 termes les plus 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{img/termes_partages.png}
-    \caption{Les 15 termes les plus fréquents partagés par les deux corpus selon \texttt{keyphrase-vectorizers}.}
+    \caption{Les 15 termes les plus fréquents extraits avec \texttt{keyphrase-vectorizers} et partagés par les deux corpus.}
     \label{fig:patternrank_partage}
 \end{figure}
