@@ -1,0 +1,797 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{alrahabi2022obvie}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=AM}{%
+         family={Alrahabi},
+         familyi={A\bibinitperiod},
+         given={Motasem},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM1}
+    \strng{fullhash}{AM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{Atelier DigitAl Humanities and cuLtural herItAge: data
+  and knowledge management and analysis durant la conf{\'e}rence francophone
+  sur l'Extraction et la Gestion des Connaissances (egc2022)}
+    \field{note}{\url{https://hal.science/hal-03543362/}}
+    \field{title}{Obvie: interface web pour la fouille et la comparaison de
+  textes}
+    \field{year}{2022}
+  \endentry
+
+  \entry{bogousslavsky2020}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BJ}{%
+         family={Bogousslavsky},
+         familyi={B\bibinitperiod},
+         given={Julien},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{BJ1}
+    \strng{fullhash}{BJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{5-6}
+    \field{pages}{437\bibrangedash 450}
+    \field{title}{\href{https://doi.org/10.1080/09540261.2020.1772731}{The
+  {M}ysteries of {H}ysteria: {A} {H}istorical {P}erspective}}
+    \field{volume}{32}
+    \field{journaltitle}{International Review of Psychiatry}
+    \field{year}{2020}
+  \endentry
+
+  \entry{broussolle2012}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BE}{%
+         family={Broussolle},
+         familyi={B\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Poirier},
+         familyi={P\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Clarac},
+         familyi={C\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BJG}{%
+         family={Barbara},
+         familyi={B\bibinitperiod},
+         given={J.-G.},
+         giveni={J\bibinithyphendelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BE+1}
+    \strng{fullhash}{BEPJCFBJG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{4}
+    \field{pages}{301\bibrangedash 320}
+    \field{title}{\href{https://doi.org/10.1016/j.neurol.2011.10.006}{Figures
+  and institutions of the neurological sciences in {P}aris from 1800 to 1950.
+  {P}art {III}: {N}eurology}}
+    \field{volume}{168}
+    \field{journaltitle}{Revue Neurologique}
+    \field{year}{2012}
+  \endentry
+
+  \entry{camargo2024}{article}{}
+    \name{author}{7}{}{%
+      {{hash=CCHF}{%
+         family={Camargo},
+         familyi={C\bibinitperiod},
+         given={Carlos Henrique\bibnamedelima Ferreira},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Coutinho},
+         familyi={C\bibinitperiod},
+         given={L{\'e}o},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CNY}{%
+         family={Correa\bibnamedelima Neto},
+         familyi={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+         given={Ylmar},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=EE}{%
+         family={Engelhardt},
+         familyi={E\bibinitperiod},
+         given={Eliasz},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MFP}{%
+         family={Maranh{\~a}o\bibnamedelima Filho},
+         familyi={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+         given={Pericles},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=WO}{%
+         family={Walusinski},
+         familyi={W\bibinitperiod},
+         given={Olivier},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=THAG}{%
+         family={Teive},
+         familyi={T\bibinitperiod},
+         given={H{\'e}lio Afonso\bibnamedelima Ghizoni},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SciELO Brasil}%
+    }
+    \strng{namehash}{CCHF+1}
+    \strng{fullhash}{CCHFCLCNYEEMFPWOTHAG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{pages}{1098\bibrangedash 1111}
+  \field{title}{\href{https://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0043-1775984.pdf}{Jean-{M}artin
+  {C}harcot: the polymath}}
+    \field{volume}{81}
+    \field{journaltitle}{Arquivos de Neuro-psiquiatria}
+    \field{year}{2024}
+  \endentry
+
+  \entry{charcot1890oeuvres}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CJM}{%
+         family={Charcot},
+         familyi={C\bibinitperiod},
+         given={J.-M.},
+         giveni={J\bibinithyphendelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Bureaux du Progr{\`e}s m{\'e}dical}%
+    }
+    \strng{namehash}{CJM1}
+    \strng{fullhash}{CJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1892}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+  \field{title}{\href{https://patrimoine.sorbonne-universite.fr/viewer/3468/?offset=1\#page=2\&viewer=picture\&o=\&n=0\&q=}{Œuvres
+  compl{\`e}tes de J.-M. Charcot : Le{\c{c}}ons sur les maladies du syst{\`e}me
+  nerveux}}
+    \field{volume}{1}
+    \list{location}{1}{%
+      {Paris}%
+    }
+    \field{year}{1892}
+  \endentry
+
+  \entry{fedchenko2024recherche}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FV}{%
+         family={Fedchenko},
+         familyi={F\bibinitperiod},
+         given={Valentina},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=NDM}{%
+         family={Nicolosi},
+         familyi={N\bibinitperiod},
+         given={Dario\bibnamedelima Maria},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Roe},
+         familyi={R\bibinitperiod},
+         given={Glenn},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Humanistica}%
+    }
+    \strng{namehash}{FV+1}
+    \strng{fullhash}{FVNDMRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{9}
+    \field{title}{\href{https://journals.openedition.org/revuehn/3940}{{\`A} la
+  recherche des r{\'e}seaux intertextuels: d{\'e}fis de la recherche
+  litt{\'e}raire {\`a} grande {\'e}chelle}}
+    \field{journaltitle}{Humanit{\'e}s num{\'e}riques}
+    \field{year}{2024}
+  \endentry
+
+  \entry{gabay2021katabase}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=GS}{%
+         family={Gabay},
+         familyi={G\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Petkovic},
+         familyi={P\bibinitperiod},
+         given={Ljudmila},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bartz},
+         familyi={B\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LMG}{%
+         family={Levenson},
+         familyi={L\bibinitperiod},
+         given={Matthias\bibnamedelima Gille},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=DNLR}{%
+         family={Du\bibnamedelima Noyer},
+         familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+         given={Lucie\bibnamedelima Rondeau},
+         giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GS+1}
+    \strng{fullhash}{GSPLBALMGDNLR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{booktitle}{Humanistica 2021}
+    \field{pages}{1\bibrangedash 7}
+    \field{title}{\href{https://hal.science/hal-03066108}{Katabase: {\`A} la
+  recherche des manuscrits vendus}}
+    \field{year}{2021}
+  \endentry
+
+  \entry{grootendorst2020keybert}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GM}{%
+         family={Grootendorst},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Zenodo}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{\href{https://doi.org/10.5281/zenodo.4461265}{KeyBERT:
+  Minimal keyword extraction with BERT.}}
+    \field{version}{v0.3.0}
+    \field{year}{2020}
+  \endentry
+
+  \entry{joyeux2019visual}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JPB}{%
+         family={Joyeux-Prunel},
+         familyi={J\bibinithyphendelim P\bibinitperiod},
+         given={B{\'e}atrice},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JPB1}
+    \strng{fullhash}{JPB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{number}{3}
+    \field{pages}{128\bibrangedash 144}
+    \field{title}{\href{https://docs.lib.purdue.edu/artlas/vol8/iss3/8/}{Visual
+  {C}ontagions, the {A}rt {H}istorian, and the {D}igital {S}trategies to {W}ork
+  on {T}hem}}
+    \field{volume}{8}
+    \field{journaltitle}{Artl@s Bulletin}
+    \field{year}{2019}
+  \endentry
+
+  \entry{koselleck2011introduction}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KR}{%
+         family={Koselleck},
+         familyi={K\bibinitperiod},
+         given={Reinhart},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Richter},
+         familyi={R\bibinitperiod},
+         given={Michaela},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Berghahn Journals}%
+    }
+    \strng{namehash}{KRRM1}
+    \strng{fullhash}{KRRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 37}
+  \field{title}{\href{https://www.berghahnjournals.com/view/journals/contributions/6/1/choc060102.xml}{Introduction
+  and {P}refaces to the {G}eschichtliche {G}rundbegriffe: ({B}asic {C}oncepts
+  in {H}istory: {A} {H}istorical {D}ictionary of {P}olitical and {S}ocial
+  {L}anguage in {G}ermany)}}
+    \field{volume}{6}
+    \field{journaltitle}{Contributions to the History of Concepts}
+    \field{year}{2011}
+  \endentry
+
+  \entry{manjavacas}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=ME}{%
+         family={Manjavacas},
+         familyi={M\bibinitperiod},
+         given={Enrique},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Long},
+         familyi={L\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kestemont},
+         familyi={K\bibinitperiod},
+         given={Mike},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computational Linguistics}%
+    }
+    \strng{namehash}{ME+1}
+    \strng{fullhash}{MELBKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{Proceedings of the 3\textsuperscript{rd} Joint {SIGHUM}
+  Workshop on Computational Linguistics for Cultural Heritage, Social Sciences,
+  Humanities and Literature}
+    \field{pages}{104\bibrangedash 114}
+    \field{title}{\href{https://doi.org/10.18653/v1/W19-2514}{On the
+  {F}easibility of {A}utomated {D}etection of {A}llusive {T}ext {R}euse}}
+    \list{location}{1}{%
+      {Minneapolis, USA}%
+    }
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{nerima2006}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NL}{%
+         family={Nerima},
+         familyi={N\bibinitperiod},
+         given={Luka},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Seretan},
+         familyi={S\bibinitperiod},
+         given={Violeta},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=WE}{%
+         family={Wehrli},
+         familyi={W\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NL+1}
+    \strng{fullhash}{NLSVWE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{pages}{95\bibrangedash 115}
+  \field{title}{\href{https://access.archive-ouverte.unige.ch/access/metadata/fc3fad28-5b90-42ec-bea5-0c6d54cb5452/download}{Le
+  problème des collocations en {TAL}}}
+    \field{volume}{27}
+    \field{journaltitle}{Nouveaux cahiers de linguistique française}
+    \field{month}{01}
+    \field{year}{2006}
+  \endentry
+
+  \entry{petkovic2023circulation}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=PL}{%
+         family={Petkovic},
+         familyi={P\bibinitperiod},
+         given={Ljudmila},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Alrahabi},
+         familyi={A\bibinitperiod},
+         given={Motasem},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Roe},
+         familyi={R\bibinitperiod},
+         given={Glenn},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PL+1}
+    \strng{fullhash}{PLAMRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{Humanistica 2023}
+  \field{title}{\href{https://hal.science/HUMANISTICA-2023/hal-04107099v1}{Circulation
+  du discours m{\'e}dical de Jean-Martin Charcot}}
+    \field{year}{2023}
+  \endentry
+
+  \entry{riffaterre1980trace}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RM}{%
+         family={Riffaterre},
+         familyi={R\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RM1}
+    \strng{fullhash}{RM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{215}
+    \field{pages}{4\bibrangedash 18}
+    \field{title}{\href{https://api.semanticscholar.org/CorpusID:170902390}{La
+  trace de l'intertexte}}
+    \field{journaltitle}{Pens{\'e}e (La) Paris}
+    \field{year}{1980}
+  \endentry
+
+  \entry{riguet2018impact}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RM}{%
+         family={Riguet},
+         familyi={R\bibinitperiod},
+         given={Marine},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RM2}
+    \strng{fullhash}{RM2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{\href{https://hal.science/hal-01903871}{L'impact de la
+  physiologie dans la critique litt{\'e}raire de la fin du
+  {XIX}\textsuperscript{{\`e}me} si{\`e}cle: l'exemple de {C}laude {B}ernard}}
+    \field{journaltitle}{Epist{\'e}mocritique: Litt{\'e}rature et savoirs}
+    \field{year}{2018}
+  \endentry
+
+  \entry{schopf2022}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=ST}{%
+         family={Schopf},
+         familyi={S\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Klimek},
+         familyi={K\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Matthes},
+         familyi={M\bibinitperiod},
+         given={Florian},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {SCITEPRESS -- Science}%
+      {Technology Publications}%
+    }
+    \strng{namehash}{ST+1}
+    \strng{fullhash}{STKSMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{Proceedings of the 14\textsuperscript{th} International
+  Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge
+  Management}
+  \field{title}{\href{http://dx.doi.org/10.5220/0011546600003335}{Pattern{R}ank:
+  {L}everaging {P}retrained {L}anguage {M}odels and {P}art of {S}peech for
+  {U}nsupervised {K}eyphrase {E}xtraction}}
+    \field{year}{2022}
+  \endentry
+
+  \entry{soulet2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Soulet},
+         familyi={S\bibinitperiod},
+         given={Arnaud},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SA1}
+    \strng{fullhash}{SA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{Journée Intelligence Artificielle et Humanités Numériques,
+  DataLab, BnF}
+  \field{title}{\href{https://afia.asso.fr/wp-content/uploads/2024/05/SOULET\_IA-et-HN-2024-05-03.pdf}{\normaltext{Vers
+  l'analyse à la demande des connaissances de {W}ikidata}}}
+    \field{year}{2024}
+  \endentry
+
+  \entry{tasca2012women}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TC}{%
+         family={Tasca},
+         familyi={T\bibinitperiod},
+         given={Cecilia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rapetti},
+         familyi={R\bibinitperiod},
+         given={Mariangela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CMG}{%
+         family={Carta},
+         familyi={C\bibinitperiod},
+         given={Mauro\bibnamedelima Giovanni},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=FB}{%
+         family={Fadda},
+         familyi={F\bibinitperiod},
+         given={Bianca},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Bentham Science Publishers}%
+    }
+    \strng{namehash}{TC+1}
+    \strng{fullhash}{TCRMCMGFB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{pages}{110\bibrangedash 119}
+    \field{title}{\href{https://doi.org/10.2174/1745017901208010110}{Women
+  {A}nd {H}ysteria {I}n {T}he {H}istory {O}f {M}ental {H}ealth}}
+    \field{volume}{8}
+    \field{journaltitle}{Clinical {P}ractice \& {E}pidemiology in {M}ental
+  {H}ealth: CP \& EMH}
+    \field{year}{2012}
+  \endentry
+
+  \entry{teive2022thomas}{article}{}
+    \name{author}{5}{}{%
+      {{hash=THAG}{%
+         family={Teive},
+         familyi={T\bibinitperiod},
+         given={H{\'e}lio Afonso\bibnamedelima Ghizoni},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  G\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Coutinho},
+         familyi={C\bibinitperiod},
+         given={L{\'e}o},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CCHF}{%
+         family={Camargo},
+         familyi={C\bibinitperiod},
+         given={Carlos Henrique\bibnamedelima Ferreira},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=MRP}{%
+         family={Munhoz},
+         familyi={M\bibinitperiod},
+         given={Renato\bibnamedelima Puppi},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=WO}{%
+         family={Walusinski},
+         familyi={W\bibinitperiod},
+         given={Olivier},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SciELO Brasil}%
+    }
+    \strng{namehash}{THAG+1}
+    \strng{fullhash}{THAGCLCCHFMRPWO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{pages}{759\bibrangedash 762}
+    \field{title}{\href{https://doi.org/10.1055/s-0042-1755278}{Thomas
+  {W}illis' legacy on the 400\textsuperscript{th} anniversary of his birth}}
+    \field{volume}{80}
+    \field{journaltitle}{Arquivos de Neuro-Psiquiatria}
+    \field{year}{2022}
+  \endentry
+
+  \entry{vaswani2017}{misc}{}
+    \name{author}{8}{}{%
+      {{hash=VA}{%
+         family={Vaswani},
+         familyi={V\bibinitperiod},
+         given={Ashish},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Shazeer},
+         familyi={S\bibinitperiod},
+         given={Noam},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Parmar},
+         familyi={P\bibinitperiod},
+         given={Niki},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=UJ}{%
+         family={Uszkoreit},
+         familyi={U\bibinitperiod},
+         given={Jakob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JL}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Llion},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GAN}{%
+         family={Gomez},
+         familyi={G\bibinitperiod},
+         given={Aidan\bibnamedelima N.},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Kaiser},
+         familyi={K\bibinitperiod},
+         given={Lukasz},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PI}{%
+         family={Polosukhin},
+         familyi={P\bibinitperiod},
+         given={Illia},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VA+1}
+    \strng{fullhash}{VASNPNUJJLGANKLPI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \verb{eprint}
+    \verb 1706.03762
+    \endverb
+    \field{title}{\href{https://arxiv.org/abs/1706.03762}{Attention {I}s {A}ll
+  {Y}ou {N}eed}}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CL}
+    \field{year}{2017}
+  \endentry
+\enddatalist
+\endinput
