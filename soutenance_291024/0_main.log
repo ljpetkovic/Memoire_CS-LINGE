@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  28 OCT 2024 23:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  29 OCT 2024 07:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2783,11 +2783,21 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [1
 
 ] (./0_main.toc)
+LaTeX Font Info:    Font shape `TU/AlegreyaSans(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 247.
+
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
 [2
+
+] (./0_main.toc)
+Overfull \hbox (54.62706pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[3
 
 ] (./intro.tex
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(0)/m/it' will be
@@ -2817,21 +2827,19 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 9.19998pt on input line 50.
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(0)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 50.
-LaTeX Font Info:    Font shape `TU/AlegreyaSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 50.
 
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[3
+[4
 
 ]) (./0_main.toc)
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[4
+[5
 
 ] (./objectif_double.tex
 File: pic/objectif_double2.png Graphic file (type bmp)
@@ -2841,7 +2849,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[5
+[6
 
 ]) (./SotA.tex
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(0)/b/n' will be
@@ -2855,7 +2863,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[6
+[7
 
 ]
 File: pic/analyse_quadrant2.png Graphic file (type bmp)
@@ -2873,14 +2881,14 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[7
+[8
 
 ]) (./0_main.toc)
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[8
+[9
 
 ] (./intertextualite.tex
 ! Extra }, or forgotten \endgroup.
@@ -2916,7 +2924,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[9
+[10
 
 ]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -2936,7 +2944,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[10
+[11
 
 ]
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(0)/m/sc' will be
@@ -2958,7 +2966,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[11
+[12
 
 ]
 File: pic/doc_sim.png Graphic file (type bmp)
@@ -2968,7 +2976,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[12
+[13
 
 ]
 
@@ -2991,7 +2999,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[13
+[14
 
 ]
 File: pic/concepts-pdf.png Graphic file (type bmp)
@@ -3016,14 +3024,14 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[14
+[15
 
 ]) (./0_main.toc)
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[15
+[16
 
 ] (./resultats.tex
 ! Undefined control sequence.
@@ -3044,7 +3052,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[16
+[17
 
 ]
 File: pic/Charcot_Autres_250523.png Graphic file (type bmp)
@@ -3058,7 +3066,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[17
+[18
 
 ]
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(0)/m/sc' will be
@@ -3068,7 +3076,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[18
+[19
 
 ]
 File: pic/keybert.png Graphic file (type bmp)
@@ -3078,7 +3086,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[19
+[20
 
 ]
 
@@ -3093,7 +3101,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[20
+[21
 
 ]
 File: pic/patternrank_workflow.png Graphic file (type bmp)
@@ -3108,7 +3116,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[21
+[22
 
 ]
 File: pic/termes_partages.png Graphic file (type bmp)
@@ -3122,14 +3130,14 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[22
+[23
 
 ]) (./0_main.toc)
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[23
+[24
 
 ] (./timeline.tex
 File: pic/timeline_Charcot.png Graphic file (type bmp)
@@ -3139,7 +3147,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[24
+[25
 
 ])
 File: beamericonarticle.pdf Graphic file (type pdf)
@@ -3184,7 +3192,7 @@ File: beamericonarticle.pdf Graphic file (type pdf)
 ! Undefined control sequence.
 <argument> \normaltext 
                        {Vers l'analyse à la demande des connaissances de {W}...
-l.298 \end{frame}
+l.305 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3203,15 +3211,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[25
-
-]
-Overfull \hbox (54.62706pt too wide) has occurred while \output is active
-[][] 
- []
-
 [26
-
 
 ]
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
@@ -3219,6 +3219,14 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
  []
 
 [27
+
+
+]
+Overfull \hbox (54.62706pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[28
 
 
 ]
@@ -3237,17 +3245,21 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `0_main.out' has not changed.
 (rerunfilecheck)             Checksum: 3C40E48E5ED52032C83D54DBAF7F62E1;645.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to '0_main.run.xml'.
 \openout1 = `0_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49161 strings out of 476683
- 1052325 string characters out of 5804046
+ 49165 strings out of 476683
+ 1052363 string characters out of 5804046
  1905018 words of memory out of 5000000
- 68372 multiletter control sequences out of 15000+600000
+ 68374 multiletter control sequences out of 15000+600000
  557508 words of font info for 213 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,20n,122p,1891b,5784s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0_main.pdf (27 pages).
+Output written on 0_main.pdf (28 pages).
